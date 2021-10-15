@@ -63,13 +63,13 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
 ## User Requirements and Expectations
 ### Requirements
 <!-- WHAT THE USER REQUIRES FOR THE PRODUCT TO BE SUCCESSFUL -->
-* Clear instruction when interaction is required
+* Clear instruction when an interaction is required
 * Clear instruction on how to interact
 * Animations that are relevant
-* Screen displays to be obviously different for each part of the story
+* Screen displays to be different for each part of the story
 * Visual prompt to know when an option has been selected
 * Ability to reread the story after completion
-* Quality content that relates to the origional story
+* Quality content that relates to the original story
 * No long paragraphs, text to be created in short sections
 
 ### Expectations
