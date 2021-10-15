@@ -74,8 +74,11 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
 
 ### Expectations
 <!-- WHAT THE USER EXPECTS FROM THE PRODUCT -->
-
-* I expect to.....
+* I expect to know the title of the story
+* I expect to know when to interact with the story
+* I expect to know when the story is over
+* I expect to be entertained
+* I expect to have clear definition between parts of the story
 
 
 ## Site owners Goals
