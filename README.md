@@ -46,13 +46,11 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
 # UX
 
 ## User Goals
-<!-- DESCRIPTIONS OF END RESULTS THAT USERS WANT TO REACH -->
 * An entertaining story that keeps interested running
 * A familiar story, but with unusual twist and endings
 * An obvious Halloween theme
 
 ## User Stories
-<!-- INTERACTIONS THAT THE USER EXPECTS TO GO THROUGH TO COMPLETE THEIR GOALS -->
 * As a user, I want to navigate through the story efficiently
 * As a user, I want to have different options to proceed through the story
 * As a user, I want to have appropriate animations visible
@@ -62,7 +60,6 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
 
 ## User Requirements and Expectations
 ### Requirements
-<!-- WHAT THE USER REQUIRES FOR THE PRODUCT TO BE SUCCESSFUL -->
 * Clear instruction when an interaction is required
 * Clear instruction on how to interact
 * Animations that are relevant
@@ -73,7 +70,6 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
 * No long paragraphs, text to be created in short sections
 
 ### Expectations
-<!-- WHAT THE USER EXPECTS FROM THE PRODUCT -->
 * I expect to know the title of the story
 * I expect to know when to interact with the story
 * I expect to know when the story is over
@@ -82,7 +78,6 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
 
 
 ## Site owners Goals
-<!-- OUTLINE OF STRUCTURE AND FEASIBILITY OF USER GOALS/ STORIES -->
 * Single page layout with clear text displayed
 * Depict a Halloween story with a dramatic twist
 * Ensure the story can be interacted with in some way
