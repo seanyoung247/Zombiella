@@ -53,6 +53,12 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
 
 ## User Stories
 <!-- INTERACTIONS THAT THE USER EXPECTS TO GO THROUGH TO COMPLETE THEIR GOALS -->
+* As a user, I want to navigate through the story efficiently
+* As a user, I want to have different options to proceed through the story
+* As a user, I want to have appropriate animations visible
+* As a user, I want to have clear instructions on when to interact
+* As a user, I want to know when the story has finished
+* As a user, I want to be able to restart the story
 
 ## User Requirements and Expectations
 ### Requirements
