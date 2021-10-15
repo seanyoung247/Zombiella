@@ -5,7 +5,9 @@ A story of love, confidence and Zombies!
 
 
 # Goal for this Project
+This project is a Halloween themed story, loosely based on the fairy tale of Cinderella with the added extras of zombies and porridge! Navigate your way through the chilling tale and decide your fate.
 
+&nbsp;
 
 # Table of Contents
 * [UX](#ux "UX")
@@ -45,11 +47,12 @@ A story of love, confidence and Zombies!
 
 ## User Goals
 <!-- DESCRIPTIONS OF END RESULTS THAT USERS WANT TO REACH -->
+* An entertaining story that keeps interested running
+* A familiar story, but with unusual twist and endings
+* An obvious Halloween theme
 
 ## User Stories
 <!-- INTERACTIONS THAT THE USER EXPECTS TO GO THROUGH TO COMPLETE THEIR GOALS -->
-
-* As a user, I want to......
 
 ## User Requirements and Expectations
 ### Requirements
