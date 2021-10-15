@@ -83,7 +83,10 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
 
 ## Site owners Goals
 <!-- OUTLINE OF STRUCTURE AND FEASIBILITY OF USER GOALS/ STORIES -->
-
+* Single page layout with clear text displayed
+* Depict a Halloween story with a dramatic twist
+* Ensure the story can be interacted with in some way
+* Include animated elements
 
 ## Strategy
 ### Strategy Outline
