@@ -1,7 +1,13 @@
-# APPLICATION TITLE
+# ZOMBIELLA
+A story of love, confidence and Zombies!
+
+&nbsp;
+
 
 # Goal for this Project
+This project is a Halloween themed story, loosely based on the fairy tale of Cinderella with the added extras of zombies and porridge! Navigate your way through the chilling tale and decide your fate.
 
+&nbsp;
 
 # Table of Contents
 * [UX](#ux "UX")
@@ -40,26 +46,42 @@
 # UX
 
 ## User Goals
-<!-- DESCRIPTIONS OF END RESULTS THAT USERS WANT TO REACH -->
+* An entertaining story that keeps interested running
+* A familiar story, but with unusual twist and endings
+* An obvious Halloween theme
 
 ## User Stories
-<!-- INTERACTIONS THAT THE USER EXPECTS TO GO THROUGH TO COMPLETE THEIR GOALS -->
-
-* As a user, I want to......
+* As a user, I want to navigate through the story efficiently
+* As a user, I want to have different options to proceed through the story
+* As a user, I want to have appropriate animations visible
+* As a user, I want to have clear instructions on when to interact
+* As a user, I want to know when the story has finished
+* As a user, I want to be able to restart the story
 
 ## User Requirements and Expectations
 ### Requirements
-<!-- WHAT THE USER REQUIRES FOR THE PRODUCT TO BE SUCCESSFUL -->
+* Clear instruction when an interaction is required
+* Clear instruction on how to interact
+* Animations that are relevant
+* Screen displays to be different for each part of the story
+* Visual prompt to know when an option has been selected
+* Ability to reread the story after completion
+* Quality content that relates to the original story
+* No long paragraphs, text to be created in short sections
 
 ### Expectations
-<!-- WHAT THE USER EXPECTS FROM THE PRODUCT -->
-
-* I expect to.....
+* I expect to know the title of the story
+* I expect to know when to interact with the story
+* I expect to know when the story is over
+* I expect to be entertained
+* I expect to have clear definition between parts of the story
 
 
 ## Site owners Goals
-<!-- OUTLINE OF STRUCTURE AND FEASIBILITY OF USER GOALS/ STORIES -->
-
+* Single page layout with clear text displayed
+* Depict a Halloween story with a dramatic twist
+* Ensure the story can be interacted with in some way
+* Include animated elements
 
 ## Strategy
 ### Strategy Outline
