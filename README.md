@@ -146,7 +146,7 @@ The wire frames can be viewed below.
 
 ## Design Choices
 ### Fonts
-
+We have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to select suitable fonts for the story. In 2011, google released a Haloween range of fonts and we have decided to go for [Creepster](https://fonts.google.com/specimen/Creepster?query=cree&preview.text=Zombiella&preview.text_type=custom#standard-styles "Creepster") for the headings and logo. For the main text within the story, we decided with [Arvo 400](https://fonts.google.com/specimen/Arvo?query=arvo&preview.text=Once%20upon%20a%20time......&preview.text_type=custom "Arvo") as it compliments Creepster and gives an old storybook look to the text.
 
 
 ### Colours
