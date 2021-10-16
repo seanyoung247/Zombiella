@@ -230,7 +230,6 @@ p {
 
 .links-outer-container {
     width: 40%;
-    display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
