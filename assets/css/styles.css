@@ -95,52 +95,52 @@ body {
 /* 3.2 Navbar blood drops */
 
 .blood-drop1 {
-    top: 12px;
+    top: 1.2rem;
     animation-duration: 3s;
 }
 
 .blood-drop2 {
-    top: 0px;
+    top: 0;
     animation-duration: 5s;
 }
 
 .blood-drop3 {
-    top: -10px;
+    top: -1rem;
     animation-duration: 3s;
 }
 
 .blood-drop4 {
-    top: 20px;
+    top: 2rem;
     animation-duration: 5s;
 }
 
 .blood-drop5 {
-    top: 0px;
+    top: 0;
     animation-duration: 4s;
 }
 
 .blood-drop6 {
-    top: -6px;
+    top: 0.6rem;
     animation-duration: 3s;
 }
 
 .blood-drop7 {
-    top: 12px;
+    top: 1.2rem;
     animation-duration: 2s;
 }
 
 .blood-drop8 {
-    top: 6px;
+    top: 0.6rem;
     animation-duration: 5s;
 }
 
 .blood-drop9 {
-    top: -20px;
+    top: -2rem;
     animation-duration: 3s;
 }
 
 .blood-drop10 {
-    top: 16px;
+    top: 1.6rem;
     animation-duration: 2s;
 }
 
