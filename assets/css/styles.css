@@ -57,6 +57,7 @@ body {
 
 .header-font {
     font-family: 'Creepster', cursive;
+    letter-spacing: 2px;
 }
 
 .navbar {
