@@ -1,11 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&display=swap');
+/* Contents */
 
+/*
+    1. Global Styles
+        1.1
+        1.2 Colours
+*/
+
+
+/* 1. Global Styles */
+/* 1.1 Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&display=swap');
 /*
 fonts:
     font-family: 'Arvo', serif;
     font-family: 'Creepster', cursive;
 */
 
+
+/* 1.2 Colours */
 :root {
     --white: #F3F3F3;
     --orange: #E4852A;
