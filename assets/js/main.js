@@ -62,7 +62,7 @@ let script = {
     "scene10":
     {
         "paragraph1": "As Cinderella entered the Palace everyone was awestruck by the unknown Beauty making her first public appearance. Cinderella was stunned by all the finery, but most of all the buffet table, since she was only allowed to eat porridge at home. Instantly, the Prince introduced himself and asked Cinderella to dance.", 
-        "paragraph": "“She hesitates. What should she do? Dance with the Prince or eat all those delicious foods she will probably never have the occasion to taste ever again?",
+        "paragraph2": "“She hesitates. What should she do? Dance with the Prince or eat all those delicious foods she will probably never have the occasion to taste ever again?",
         "option1": "Dance with the Prince", 
         "option2": "Visit the bufeet table",
         "option1Result": "scene11", 
