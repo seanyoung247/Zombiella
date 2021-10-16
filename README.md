@@ -1,6 +1,8 @@
 # ZOMBIELLA
 A story of love, confidence and Zombies!
 
+If you are brave enough to visit the live story, follow this [link](https://andrewdempsey2018.github.io/Zombiella/ "Zombiella")
+
 &nbsp;
 
 
@@ -107,9 +109,12 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 ### Strategy Description
 |Item Description | Importance Score | Feasibility Score | Outcome |
 | --------------- | ----------| -----------| ----------|
-| <!-- ADD ITEM -->| <!-- ADD IMPORTANCE SCORE --> | <!-- ADD FESIBILITY SCORE --> | <!-- TOTAL OF IMPORTANCE & FEASIBILITY --> |
-
-
+| Ensure the story can be interacted with in some way |5 | 5 |10 |
+| Include appropriate animated elements |5 | 5 |10 |
+| Ability to restart the story | 4 | 5 |8 |
+| Clear instructions on when to interact |5 | 5 |10 |
+| Obvious Halloween theme |5 | 5 |10 |
+| Displayed on a single screen | 2 | 5 | 7 |
 
 \
 &nbsp;
@@ -143,6 +148,13 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 
 
 ### Structure
+The structure of this project has been mapped out using [Lucid](https://lucid.co/ "Lucid").
+
+Creating the flow, allowed us to create a basic outline of the story in order to develop the content.
+
+&nbsp;
+
+![Zombieella Story Flow](readme-images/zombiella-flow.jpg)
 
 
 \
@@ -172,14 +184,18 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 # Technologies used
 
 ## Languages
-
+* [HTML](https://en.wikipedia.org/wiki/HTML5 "HTML") for the structure of the story
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS") for the design of the story
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JS") for the interactive elements of the story
+* [Markdown](https://en.wikipedia.org/wiki/Markdown) for the content in my README file
 
 ## Libraries and Frameworks
 
 
 
 ## Tools
-
+* For creating the story flow [Lucid](https://lucid.co/ "Lucid")
+* For spell checking [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen/related?hl=en "Grammarly")
 
 
 # Testing
