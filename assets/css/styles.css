@@ -9,9 +9,12 @@
         1.5 body
     2. General
         2.1 Header font
-    3. Navbar
-        3.1 Main Nav
-        3.2 Navbar blood drops
+    3. Buttons
+        3.1 Bootstrap buttons
+        3.2 Nav buttons
+    4. Navbar
+        4.1 Main Nav
+        4.2 Navbar blood drops
 */
 
 
@@ -63,9 +66,34 @@ body {
     letter-spacing: 2px;
 }
 
+/* 3. Buttons */
+/* 3.1 Bootstrap buttons */
 
-/* 3. Navbar */
-/* 3.1 Main Nav */
+.btn:focus {
+    box-shadow: none;
+}
+
+/* 3.2 Nav buttons */
+
+.nav-button {
+    color: var(--black);
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background: rgb(228, 133, 42);
+}
+
+.nav-button:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.nav-button:active {
+    box-shadow: 0px 0px 10px 2px var(--orange);
+    color: var(--orange);
+}
+
+/* 4. Navbar */
+/* 4.1 Main Nav */
 .navbar {
     background-color: var(--purple);
     height: 6.5rem;
@@ -85,72 +113,66 @@ body {
     text-shadow: 0px 6px 6px var(--red)
 }
 
-.nav-button {
-    color: var(--black);
-    font-size: 1.5rem;
-    border-radius: 5px;
-    background: rgb(228, 133, 42);
-}
 
-/* 3.2 Navbar blood drops */
+/* 4.2 Navbar blood drops */
 
 .blood-drop1 {
-    top: 12px;
+    top: 1.2rem;
     animation-duration: 3s;
 }
 
 .blood-drop2 {
-    top: 0px;
+    top: 0;
     animation-duration: 5s;
 }
 
 .blood-drop3 {
-    top: -10px;
+    top: -1rem;
     animation-duration: 3s;
 }
 
 .blood-drop4 {
-    top: 20px;
+    top: 2rem;
     animation-duration: 5s;
 }
 
 .blood-drop5 {
-    top: 0px;
+    top: 0;
     animation-duration: 4s;
 }
 
 .blood-drop6 {
-    top: -6px;
+    top: 0.6rem;
     animation-duration: 3s;
 }
 
 .blood-drop7 {
-    top: 12px;
+    top: 1.2rem;
     animation-duration: 2s;
 }
 
 .blood-drop8 {
-    top: 6px;
+    top: 0.6rem;
     animation-duration: 5s;
 }
 
 .blood-drop9 {
-    top: -20px;
+    top: -2rem;
     animation-duration: 3s;
 }
 
 .blood-drop10 {
-    top: 16px;
+    top: 1.6rem;
     animation-duration: 2s;
 }
 
 .drop {
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     margin: 0 auto;
     background: red;
-    border-radius: 20px;
+    border-radius: 2rem;
     animation-name: drip;
     animation-iteration-count: infinite;
   }
@@ -160,16 +182,17 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 30px solid red;
-    top: -22px;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 3rem solid red;
+    top: -2rem;
   }
   
   
   @keyframes drip {
       to {
-        top: 50px;
+        top: 5rem;
+        opacity: 0;
       }
   }
   
