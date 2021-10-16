@@ -231,6 +231,7 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 * For final colour pallet [Colourmind](http://colormind.io/ "Colourmind")
 * For the fonts [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * For colour contrast checking [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM")
+* For the blood drips [Adib Behjat](https://codepen.io/abehjat/pen/oXMENv "Adib Behjat")
 
 
 # Testing
