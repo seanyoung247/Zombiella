@@ -282,3 +282,7 @@ p {
     background-color: var(--red);
 }
 
+.social-3:hover {
+    color: var(--red);
+    background-color: var(--white);
+}
