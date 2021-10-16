@@ -146,6 +146,13 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 
 
 ### Structure
+The structure of this project has been mapped out using [Lucid](https://lucid.co/ "Lucid").
+
+Creating the flow, allowed us to create a basic outline of the story in order to develop the content.
+
+&nbsp;
+
+![Zombieella Story Flow](wireframes/zombiella-flow.jpg)
 
 
 \
