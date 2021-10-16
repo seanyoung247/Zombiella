@@ -95,7 +95,15 @@ body {
 .nav-button:hover {
     background-color: var(--red);
     color: var(--white);
-    box-shadow: 0px 5px 12px var(--orange)
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.nav-button:active {
+    box-shadow: 0px 0px 10px 2px var(--orange);
+    color: var(--orange);
 }
 
 /* 3.2 Navbar blood drops */
