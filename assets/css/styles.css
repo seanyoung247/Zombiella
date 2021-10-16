@@ -121,6 +121,11 @@ body {
     animation-duration: 2s;
 }
 
+.blood-drop8 {
+    top: 6px;
+    animation-duration: 5s;
+}
+
 .drop {
     position: relative;
     width: 20px;
