@@ -157,6 +157,17 @@ The wire frames can be viewed below.
 
 
 
+### Breakpoints
+Our breakpoints will be based on the [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap"). We may not necessarily be requiring all of these, but if breakpoints are needed, they will be at these points.
+
+| Screen Size | Breakpoint |
+| ----------- | ---------- |
+| x-small     | <576px     |
+| small       | => 576px   |
+| medium      | => 768px   |
+| large       | => 992px   |
+| x-large     | => 1200px  |
+
 ### Structure
 The structure of this project has been mapped out using [Lucid](https://lucid.co/ "Lucid").
 
