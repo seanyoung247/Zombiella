@@ -1,2 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&display=swap');
 
+/*
+fonts:
+    font-family: 'Arvo', serif;
+    font-family: 'Creepster', cursive;
+*/
+
+:root {
+    --white: #F3F3F3;
+    --orange: #E4852A;
+    --red: #970D2D;
+    --purple: #3F0071; 
+    --black: #000000;
+}
