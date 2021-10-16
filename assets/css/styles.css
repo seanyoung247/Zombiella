@@ -10,7 +10,8 @@
     2. General
         2.1 Header font
     3. Buttons
-        3.1 Nav buttons
+        3.1 Bootstrap buttons
+        3.2 Nav buttons
     4. Navbar
         4.1 Main Nav
         4.2 Navbar blood drops
@@ -66,9 +67,30 @@ body {
 }
 
 /* 3. Buttons */
-/* 3.1 Nav buttons */
+/* 3.1 Bootstrap buttons */
 
+.btn:focus {
+    box-shadow: none;
+}
 
+/* 3.2 Nav buttons */
+
+.nav-button {
+    color: var(--black);
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background: rgb(228, 133, 42);
+}
+
+.nav-button:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.nav-button:active {
+    box-shadow: 0px 0px 10px 2px var(--orange);
+    color: var(--orange);
+}
 
 /* 4. Navbar */
 /* 4.1 Main Nav */
@@ -91,26 +113,6 @@ body {
     text-shadow: 0px 6px 6px var(--red)
 }
 
-.nav-button {
-    color: var(--black);
-    font-size: 1.5rem;
-    border-radius: 5px;
-    background: rgb(228, 133, 42);
-}
-
-.nav-button:hover {
-    background-color: var(--red);
-    color: var(--white);
-}
-
-.btn:focus {
-    box-shadow: none;
-}
-
-.nav-button:active {
-    box-shadow: 0px 0px 10px 2px var(--orange);
-    color: var(--orange);
-}
 
 /* 4.2 Navbar blood drops */
 
