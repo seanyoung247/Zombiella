@@ -217,4 +217,9 @@ p {
     background-color: var(--purple);
     border-top: 2px solid var(--orange);
 }
+
+.social-links-text {
+    color: var(--white);
+    text-align: center;
+}
   
