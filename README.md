@@ -107,9 +107,12 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 ### Strategy Description
 |Item Description | Importance Score | Feasibility Score | Outcome |
 | --------------- | ----------| -----------| ----------|
-| <!-- ADD ITEM -->| <!-- ADD IMPORTANCE SCORE --> | <!-- ADD FESIBILITY SCORE --> | <!-- TOTAL OF IMPORTANCE & FEASIBILITY --> |
-
-
+| Ensure the story can be interacted with in some way |5 | 5 |10 |
+| Include appropriate animated elements |5 | 5 |10 |
+| Ability to restart the story | 4 | 5 |8 |
+| Clear instructions on when to interact |5 | 5 |10 |
+| Obvious Halloween theme |5 | 5 |10 |
+| Displayed on a single screen | 2 | 5 | 7 |
 
 \
 &nbsp;
