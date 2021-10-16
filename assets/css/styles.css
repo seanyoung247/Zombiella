@@ -58,3 +58,10 @@ body {
 .header-font {
     font-family: 'Creepster', cursive;
 }
+
+.navbar {
+    background-color: var(--purple);
+    height: 6rem;
+    padding: 1rem 3rem;
+    border-bottom: 2px solid var(--orange);
+}
