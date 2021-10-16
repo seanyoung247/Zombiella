@@ -184,7 +184,10 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 # Technologies used
 
 ## Languages
-
+* [HTML](https://en.wikipedia.org/wiki/HTML5 "HTML") for the structure of the story
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS") for the design of the story
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JS") for the interactive elements of the story
+* [Markdown](https://en.wikipedia.org/wiki/Markdown) for the content in my README file
 
 ## Libraries and Frameworks
 
