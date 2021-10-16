@@ -152,7 +152,7 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 &nbsp;
 
-![Zombieella Story Flow](wireframes/zombiella-flow.jpg)
+![Zombieella Story Flow](readme-images/zombiella-flow.jpg)
 
 
 \
