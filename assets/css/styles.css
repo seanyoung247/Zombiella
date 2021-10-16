@@ -92,6 +92,12 @@ body {
     background: rgb(228, 133, 42);
 }
 
+.nav-button:hover {
+    background-color: var(--red);
+    color: var(--white);
+    box-shadow: 0px 5px 12px var(--orange)
+}
+
 /* 3.2 Navbar blood drops */
 
 .blood-drop1 {
