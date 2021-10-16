@@ -160,10 +160,10 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 30px solid red;
-    top: -22px;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 3rem solid red;
+    top: -2rem;
   }
   
   
