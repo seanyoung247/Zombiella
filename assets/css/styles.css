@@ -251,3 +251,8 @@ p {
     height: 4rem;
     width: 4rem;
 }
+
+.social-1 {
+    color: var(--black);
+    background-color: var(--orange);
+}
