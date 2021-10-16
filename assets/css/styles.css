@@ -227,7 +227,7 @@ p {
 .linkedin-links, .github-links {
     width: 40%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
 }
