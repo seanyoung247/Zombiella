@@ -194,7 +194,8 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 
 ## Tools
-
+* For creating the story flow [Lucid](https://lucid.co/ "Lucid")
+* For spell checking [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen/related?hl=en "Grammarly")
 
 
 # Testing
