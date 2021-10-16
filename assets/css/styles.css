@@ -228,7 +228,7 @@ p {
     font-size: 1.5rem;
 }
 
-.linkedin-links, .github-links {
+.links-outer-container {
     width: 40%;
     display: flex;
     flex-direction: row-reverse;
