@@ -169,7 +169,8 @@ body {
   
   @keyframes drip {
       to {
-        top: 50px;
+        top: 5rem;
+        opacity: 0;
       }
   }
   
