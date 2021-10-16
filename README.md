@@ -150,7 +150,16 @@ We have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to select 
 
 
 ### Colours
+Initially, we began looking for a colour pallet using [colorhunt](https://colorhunt.co/palettes/halloween "colorhunt") and searched using Halloween as a key work. From this, we converted the key colours into [Colourmind](http://colormind.io/ "Colourmind"), then completed the rest of the pallet. 
 
+![Final Colour Pallet](readme-images/colour-pallet/colour-pallet-final.jpg)
+
+These colours give great flexibility as there is the possibility of several combinations of text and background colour that pass the [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM") tests. The results can be seen below.
+
+* White text with black background - [link](readme-images/colour-pallet/colour-pallet-white-black.jpg "Link")
+* White text with purple background - [link](readme-images/colour-pallet/colour-pallet-white-purple.jpg "Link")
+* White text with red background - [link](readme-images/colour-pallet/colour-pallet-white-red.jpg "Link")
+* Orange text with black background - [link](readme-images/colour-pallet/colour-pallet-orange-black.jpg "Link")
 
 
 ### Images
