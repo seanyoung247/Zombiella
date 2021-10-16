@@ -146,11 +146,11 @@ body {
 
 .drop {
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     margin: 0 auto;
     background: red;
-    border-radius: 20px;
+    border-radius: 2rem;
     animation-name: drip;
     animation-iteration-count: infinite;
   }
