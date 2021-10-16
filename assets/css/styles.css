@@ -80,9 +80,8 @@ body {
 }
 
 .nav-button {
-    background-color: var(--orange);
     color: var(--black);
     font-size: 1.5rem;
+    border-radius: 5px;
+    background: rgb(228, 133, 42);
 }
-
-
