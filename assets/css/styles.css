@@ -9,9 +9,11 @@
         1.5 body
     2. General
         2.1 Header font
-    3. Navbar
-        3.1 Main Nav
-        3.2 Navbar blood drops
+    3. Buttons
+        3.1 Nav buttons
+    4. Navbar
+        4.1 Main Nav
+        4.2 Navbar blood drops
 */
 
 
@@ -63,9 +65,13 @@ body {
     letter-spacing: 2px;
 }
 
+/* 3. Buttons */
+/* 3.1 Nav buttons */
 
-/* 3. Navbar */
-/* 3.1 Main Nav */
+
+
+/* 4. Navbar */
+/* 4.1 Main Nav */
 .navbar {
     background-color: var(--purple);
     height: 6.5rem;
@@ -106,7 +112,7 @@ body {
     color: var(--orange);
 }
 
-/* 3.2 Navbar blood drops */
+/* 4.2 Navbar blood drops */
 
 .blood-drop1 {
     top: 1.2rem;
