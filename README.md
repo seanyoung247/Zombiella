@@ -227,6 +227,10 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 * For creating the story flow [Lucid](https://lucid.co/ "Lucid")
 * For spell checking [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen/related?hl=en "Grammarly")
 * For the wireframes [Balsamiq](https://balsamiq.com/wireframes/)
+* For initial colour pallet ideas [colorhunt](https://colorhunt.co/palettes/halloween "colorhunt")
+* For final colour pallet [Colourmind](http://colormind.io/ "Colourmind")
+* For the fonts [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* For colour contrast checking [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM")
 
 
 # Testing
