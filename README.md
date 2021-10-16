@@ -125,7 +125,17 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 
 
 # Wireframes
+To develop the wireframes, we have used [Balsamiq](https://balsamiq.com/wireframes/)
 
+The wire frames can be viewed below.
+
+[Mobile Wireframe](readme-images/wireframes/mobile-wireframe.jpg)
+
+[Tablet Wireframe](readme-images/wireframes/tablet-wireframe.jpg)
+
+[Desktop Wireframe Screen 1](readme-images/wireframes/desktop-wireframe.jpg)
+
+[Desktop Wireframe Screen 2](readme-images/wireframes/desktop-wireframe-1.jpg)
 
 \
 &nbsp;
@@ -136,16 +146,36 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 
 ## Design Choices
 ### Fonts
-
+We have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to select suitable fonts for the story. In 2011, google released a Haloween range of fonts and we have decided to go for [Creepster](https://fonts.google.com/specimen/Creepster?query=cree&preview.text=Zombiella&preview.text_type=custom#standard-styles "Creepster") for the headings and logo. For the main text within the story, we decided with [Arvo 400](https://fonts.google.com/specimen/Arvo?query=arvo&preview.text=Once%20upon%20a%20time......&preview.text_type=custom "Arvo") as it compliments Creepster and gives an old storybook look to the text.
 
 
 ### Colours
+Initially, we began looking for a colour pallet using [colorhunt](https://colorhunt.co/palettes/halloween "colorhunt") and searched using Halloween as a key work. From this, we converted the key colours into [Colourmind](http://colormind.io/ "Colourmind"), then completed the rest of the pallet. 
 
+![Final Colour Pallet](readme-images/colour-pallet/colour-pallet-final.jpg)
+
+These colours give great flexibility as there is the possibility of several combinations of text and background colour that pass the [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM") tests. The results can be seen below.
+
+* White text with black background - [link](readme-images/colour-pallet/colour-pallet-white-black.jpg "Link")
+* White text with purple background - [link](readme-images/colour-pallet/colour-pallet-white-purple.jpg "Link")
+* White text with red background - [link](readme-images/colour-pallet/colour-pallet-white-red.jpg "Link")
+* Orange text with black background - [link](readme-images/colour-pallet/colour-pallet-orange-black.jpg "Link")
 
 
 ### Images
 
 
+
+### Breakpoints
+Our breakpoints will be based on the [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap"). We may not necessarily be requiring all of these, but if breakpoints are needed, they will be at these points.
+
+| Screen Size | Breakpoint |
+| ----------- | ---------- |
+| x-small     | <576px     |
+| small       | => 576px   |
+| medium      | => 768px   |
+| large       | => 992px   |
+| x-large     | => 1200px  |
 
 ### Structure
 The structure of this project has been mapped out using [Lucid](https://lucid.co/ "Lucid").
@@ -196,6 +226,11 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 ## Tools
 * For creating the story flow [Lucid](https://lucid.co/ "Lucid")
 * For spell checking [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen/related?hl=en "Grammarly")
+* For the wireframes [Balsamiq](https://balsamiq.com/wireframes/)
+* For initial colour pallet ideas [colorhunt](https://colorhunt.co/palettes/halloween "colorhunt")
+* For final colour pallet [Colourmind](http://colormind.io/ "Colourmind")
+* For the fonts [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* For colour contrast checking [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM")
 
 
 # Testing
