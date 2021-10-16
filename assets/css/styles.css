@@ -9,6 +9,9 @@
         1.5 body
     2. General
         2.1 Header font
+    3. Navbar
+        3.1 Main Nav
+        3.2 Navbar blood drops
 */
 
 
@@ -60,6 +63,9 @@ body {
     letter-spacing: 2px;
 }
 
+
+/* 3. Navbar */
+/* 3.1 Main Nav */
 .navbar {
     background-color: var(--purple);
     height: 6.5rem;
@@ -85,6 +91,8 @@ body {
     border-radius: 5px;
     background: rgb(228, 133, 42);
 }
+
+/* 3.2 Navbar blood drops */
 
 .blood-drop1 {
     top: 12px;
@@ -131,6 +139,11 @@ body {
     animation-duration: 3s;
 }
 
+.blood-drop10 {
+    top: 16px;
+    animation-duration: 2s;
+}
+
 .drop {
     position: relative;
     width: 20px;
@@ -159,3 +172,4 @@ body {
         top: 50px;
       }
   }
+  
