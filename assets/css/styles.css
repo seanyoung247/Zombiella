@@ -221,6 +221,7 @@ p {
 .social-links-text {
     color: var(--white);
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .linkedin-links, .github-links {
