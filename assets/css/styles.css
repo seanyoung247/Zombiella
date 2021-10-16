@@ -256,3 +256,8 @@ p {
     color: var(--black);
     background-color: var(--orange);
 }
+
+.social-2 {
+    color: var(--red);
+    background-color: var(--white);
+}
