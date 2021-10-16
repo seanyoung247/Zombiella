@@ -66,3 +66,10 @@ body {
     padding: 1rem 3rem;
     border-bottom: 2px solid var(--orange);
 }
+
+
+.navbar-brand {
+    color: var(--white);
+    font-size: 2.5rem;
+    cursor: pointer;
+}
