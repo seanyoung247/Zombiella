@@ -271,3 +271,8 @@ p {
     color: var(--orange);
     background-color: var(--black);
 }
+
+.social-1:hover {
+    color: var(--orange);
+    background-color: var(--black);
+}
