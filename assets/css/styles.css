@@ -276,3 +276,9 @@ p {
     color: var(--orange);
     background-color: var(--black);
 }
+
+.social-2:hover {
+    color: var(--white);
+    background-color: var(--red);
+}
+
