@@ -261,3 +261,8 @@ p {
     color: var(--red);
     background-color: var(--white);
 }
+
+.social-3 {
+    color: var(--white);
+    background-color: var(--red);
+}
