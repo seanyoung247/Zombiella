@@ -125,7 +125,17 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 
 
 # Wireframes
+To develop the wireframes, we have used [Balsamiq](https://balsamiq.com/wireframes/)
 
+The wire frames can be viewed below.
+
+[Mobile Wireframe](readme-images/wireframes/mobile-wireframe.jpg)
+
+[Tablet Wireframe](readme-images/wireframes/tablet-wireframe.jpg)
+
+[Desktop Wireframe Screen 1](readme-images/wireframes/desktop-wireframe.jpg)
+
+[Desktop Wireframe Screen 2](readme-images/wireframes/desktop-wireframe-1.jpg)
 
 \
 &nbsp;
