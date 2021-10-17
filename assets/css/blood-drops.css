@@ -1,0 +1,87 @@
+.blood-drop1 {
+    top: 2rem;
+    left: 10rem;
+    animation-duration: 3s;;
+}
+
+.blood-drop2 {
+    top: 2.5rem;
+    left: 5rem;
+    animation-duration: 5s;
+}
+
+.blood-drop3 {
+    top: -2rem;
+    left: -7rem;
+    animation-duration: 3s;
+}
+
+.blood-drop4 {
+    top: 2rem;
+    left: 6rem;
+    animation-duration: 5s;
+}
+
+.blood-drop5 {
+    top: 0rem;
+    left: 10rem;
+    animation-duration: 4s;
+}
+
+.blood-drop6 {
+    top:0rem;
+    left: -11rem;
+    animation-duration: 2s;
+}
+
+.blood-drop7 {
+    top: 0rem;
+    left: 8rem;
+    animation-duration: 2s;
+}
+
+.blood-drop8 {
+    top: 1rem;
+    animation-duration: 5s;
+}
+
+.blood-drop9 {
+    top: 0rem;
+    left: -16rem;
+    animation-duration: 3s;
+}
+
+.blood-drop10 {
+    top: 0rem;
+    left: 3rem;
+    animation-duration: 4s;
+}
+
+.drop {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 auto;
+    background: red;
+    border-radius: 2rem;
+    animation-name: drip;
+    animation-iteration-count: infinite;
+  }
+  
+  .drop:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 3rem solid red;
+    top: -2rem;
+  }
+
+  @keyframes drip {
+    to {
+      top: 5rem;
+      opacity: 0;
+    }
+}
