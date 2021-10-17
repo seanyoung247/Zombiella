@@ -238,10 +238,9 @@ p {
     border-top: 2px solid var(--orange);
 }
 
-.social-links-text {
+.social-links-hint {
     color: var(--white);
-    text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .links-outer-container {
