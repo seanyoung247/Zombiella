@@ -211,7 +211,13 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 ## Features to be Implemented
 
+* Implemented more paths the user can go through when having to choose what Cinderella has to do, so the reading experience is completely everytime you read it.
 
+* Implement more interaction with the graphics, so the user will be able to click on an element and this would be animated.
+
+* The user can enter their name when starting the story so they get more incolved in it.
+
+* Creating an application using [Kaboom](https://kaboomjs.com/)
 
 \
 &nbsp;
@@ -347,6 +353,10 @@ This Hackathon was a very enjoyable experience. I had the opportunity to work wi
 ## Ana Genover
 
 I have highly enjoyed participating in this hackaton. It is fantastic to have had the opportunity to work on a project with other students, learn together, be supportive to each other and, most importantly have fun. Overall it is been a great experience, this is my first hackaton and I will surely register for the next one.
+
+## Sean Young
+
+## Sam Timmings
 
 # Credits
 
