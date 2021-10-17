@@ -260,8 +260,8 @@ body {
 
 /* 6. Main Content*/
 .background-img {
-    height: inherit;
-    width: inherit
+    height: 78vh;
+    width: auto;
 }
 
 #paragraph {
