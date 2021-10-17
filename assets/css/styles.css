@@ -90,6 +90,62 @@ body {
 }
 
 /* 3.2 Option buttons */
+  
+  .btn-pumpkin {
+    background-color: var(--orange);
+    height: 15rem;
+    width: 17rem;
+    border-radius: 45%;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+ /* To be positioned when layout finalised 
+
+  .pumpkin1::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 18px solid green;
+  }
+  */
+  
+  .grow {
+    animation: grow-pumpkin 0.5s ease-in forwards;
+  }
+  
+  .shrink {
+    animation: shrink-pumpkin 0.5s ease-in forwards;
+  }
+  
+  @keyframes grow-pumpkin {
+    0% {
+        height: 15rem;
+        width: 17rem;
+    }
+    100% {
+        height: 16rem;
+        width: 18rem;
+    }
+  }
+  
+  @keyframes shrink-pumpkin {
+    0% {
+        height: 16rem;
+        width: 18rem; 
+    }
+    100% {
+        height: 15rem;
+        width: 17rem;
+    }
+  }
+  
+
+/* 3.2 Option buttons */
 .opt-btns {
     height: 20%;
 }
