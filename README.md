@@ -44,6 +44,7 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
         * [Clone the Repo](#clone-the-repo-with-gitpod)
         * [Set up your Workspace](#set-up-your-workspace)
         * [Deployment via Heroku](#deployment-via-heroku)
+    * [Dev-Log](#dev-log)
     * [Credits](#credits)
 # UX
 
@@ -329,6 +330,12 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Dev-Log
+
+## Andrew Dempsey
+
+This Hackathon was a very enjoyable experience. I had the opportunity to work with a team of super talented and motivated coders. The 'Spookatooners' worked great together by keeping each other motivated, lending a helping hand when needed & giving feedback as well as suggestions on each other's work. We all learned a great deal about working together as a team, planning and managing tasks within a large project as well as learning valuable new technical skills. The best parts of the experience were producing an excellent end product, making new friends and of course, having fun!
 
 # Credits
 
