@@ -311,3 +311,14 @@ p {
     color: var(--black);
     background-color: var(--orange);
 }
+
+
+
+
+/*  ?. >=992px (Desktop) */
+
+@media (min-width: 992px) {
+    .links-outer-container {
+        width: 40%;
+}
+
