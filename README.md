@@ -199,23 +199,23 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 ## Existing Features
 
-* **Header**: shows the title of the story and when click the page reloads, this allows the user to start the story again.
+* **Header**: shows the title of the story and when clicked the page reloads, this allows the user to start the story again.
 
-* **Navigation bar**: it allows the user to navigate through the story by providing the correct buttons to carry on with the story. It is composed by a "next" button, "read again" button, and two buttons that allow the user to pick a cjoice when required.
+* **Navigation bar**: it allows the user to navigate through the story by providing the correct buttons to carry on with the story. It is composed by a "next" button, "read again" button, and two buttons that allow the user to make a choice when required.
 
 * **Scene area**: area where the user can see the animation of the story.
 
-* **Footer**: it contains the link to the Github and LinkedIn profiles of all the developers working on the project.
+* **Footer**: it contains the link to the Github and LinkedIn profiles of all the developers that worked on the project.
 
 &nbsp;
 
 ## Features to be Implemented
 
-* Implemented more paths the user can go through when having to choose what Cinderella has to do, so the reading experience is completely everytime you read it.
+* Implement more paths the user can go through when having to choose what Cinderella's options, so the reading experience is completely different everytime you read it.
 
 * Implement more interaction with the graphics, so the user will be able to click on an element and this would be animated.
 
-* The user can enter their name when starting the story so they get more incolved in it.
+* The users can enter their name when starting the story so it is more personalised and they get more involved in it.
 
 * Creating an application using [Kaboom](https://kaboomjs.com/)
 
