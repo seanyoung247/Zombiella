@@ -1,20 +1,3 @@
-.testcss {
-    color: red;
-}
-
-.background-img {
-    height: 800px;
-    width: 800px
-}
-
-#paragraph {
-    height: 600px;
-}
-
-.txt-cntr {
-    text-align: center;
-}
-
 /* Contents */
 
 /*
@@ -28,11 +11,12 @@
         2.1 Header font
     3. Buttons
         3.1 Bootstrap buttons
-        3.2 Nav buttons
+        3.2 Options buttons
     4. Navbar
         4.1 Main Nav
         4.2 Navbar blood drops
     5. Footer
+    6. Main content
 
 
     ?. Media Queries
@@ -74,7 +58,7 @@ body {
     font-size: 1.6rem;
     height: 100vh;
     font-family: 'Arvo', serif;
-    font-weight: 400;
+    letter-spacing: 1px;
     background-color: var(--white);
 }
 
@@ -84,12 +68,17 @@ body {
 
 .header-font {
     font-family: 'Creepster', cursive;
-    letter-spacing: 2px;
+    letter-spacing: 8px;
 }
 
 /* 2.2 Display flex */
 .display-flex {
     display: flex;
+}
+
+/* 2.3 Text-center */
+.txt-cntr {
+    text-align: center;
 }
 
 
@@ -100,6 +89,65 @@ body {
     box-shadow: none;
 }
 
+/* 3.2 Option buttons */
+  
+  .btn-pumpkin {
+    background-color: var(--orange);
+    height: 15rem;
+    width: 20rem;
+    border-radius: 45%;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+/*
+  .btn-pumpkin::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    bottom: 22rem;
+    left: 2rem;
+    border-left: 15px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 18px solid green;
+  }
+  */
+  .grow {
+    animation: grow-pumpkin 0.5s ease-in forwards;
+  }
+  
+  .shrink {
+    animation: shrink-pumpkin 0.5s ease-in forwards;
+  }
+  
+  @keyframes grow-pumpkin {
+    0% {
+        height: 15rem;
+        width: 20rem;
+    }
+    100% {
+        height: 17rem;
+        width: 22rem;
+    }
+  }
+  
+  @keyframes shrink-pumpkin {
+    0% {
+        height: 17rem;
+        width: 22rem; 
+    }
+    100% {
+        height: 15rem;
+        width: 20rem;
+    }
+  }
+  
+
+/* 3.2 Option buttons */
+.opt-btns {
+    height: 20%;
+}
 
 /* 4. Navbar */
 /* 4.1 Main Nav */
@@ -110,107 +158,14 @@ body {
     border-bottom: 2px solid var(--orange);
 }
 
-
 .nav-bar-header {
     color: var(--white);
-    font-size: 2.5rem;
+    font-size: 3rem;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
     text-shadow: 0px 6px 6px var(--red)
 }
-
-
-/* 4.2 Navbar blood drops */
-
-.blood-drop1 {
-    top: 2rem;
-    left: 10rem;
-    animation-duration: 3s;;
-}
-
-.blood-drop2 {
-    top: 2.5rem;
-    left: 5rem;
-    animation-duration: 5s;
-}
-
-.blood-drop3 {
-    top: -2rem;
-    left: -7rem;
-    animation-duration: 3s;
-}
-
-.blood-drop4 {
-    top: 2rem;
-    left: 6rem;
-    animation-duration: 5s;
-}
-
-.blood-drop5 {
-    top: 0rem;
-    left: 10rem;
-    animation-duration: 4s;
-}
-
-.blood-drop6 {
-    top:0rem;
-    left: -11rem;
-    animation-duration: 2s;
-}
-
-.blood-drop7 {
-    top: 0rem;
-    left: 8rem;
-    animation-duration: 2s;
-}
-
-.blood-drop8 {
-    top: 1rem;
-    animation-duration: 5s;
-}
-
-.blood-drop9 {
-    top: 0rem;
-    left: -16rem;
-    animation-duration: 3s;
-}
-
-.blood-drop10 {
-    top: 0rem;
-    left: 3rem;
-    animation-duration: 4s;
-}
-
-.drop {
-    position: relative;
-    width: 2rem;
-    height: 2rem;
-    margin: 0 auto;
-    background: red;
-    border-radius: 2rem;
-    animation-name: drip;
-    animation-iteration-count: infinite;
-  }
-  
-  .drop:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 1rem solid transparent;
-    border-right: 1rem solid transparent;
-    border-bottom: 3rem solid red;
-    top: -2rem;
-  }
-  
-  
-  @keyframes drip {
-      to {
-        top: 5rem;
-        opacity: 0;
-      }
-  }
 
 
 /* 5. Footer */
@@ -302,6 +257,34 @@ body {
 }
 
 
+/* 6. Main Content*/
+.background-img {
+    height: 78vh;
+    width: auto;
+}
+
+#paragraph {
+    background-color: var(--purple);
+    height: 90%;
+    border-radius: 1rem;
+    color: var(--white);
+    font-size: 2rem;
+    box-shadow: 0px 0px 15px var(--white);
+    line-height: 3rem;
+}
+
+.p-container {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: var(--black);
+    box-shadow: 0px 0px 5rem var(--red)
+}
+
+.btn-pumpkin-container {
+    height: 22rem;
+}
+
 
 /* ?. Media Queries */
 
@@ -318,7 +301,8 @@ body {
     }
 
     .nav-bar-header {
-        font-size: 4rem;
+        font-size: 5rem;
+        letter-spacing: 12px;
     }
 
     .nav-bar {
