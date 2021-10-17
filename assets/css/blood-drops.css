@@ -78,10 +78,11 @@
     border-bottom: 3rem solid red;
     top: -2rem;
   }
-
+  
+  
   @keyframes drip {
-    to {
-      top: 5rem;
-      opacity: 0;
-    }
-}
+      to {
+        top: 5rem;
+        opacity: 0;
+      }
+  }
