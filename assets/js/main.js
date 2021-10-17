@@ -143,7 +143,7 @@ let script = {
     },
     "zombieAttackScene1":
     {
-        "paragraph": "As Cinders (danced with prince/stuffed her face) a terrible scream tore out. The prince looked up as a lurching decayed creature groaned out a moan. “Aunt Mildred? Aren’t you dead?” he exclaimed as the creature lurched toward him. Still more monsters grabbed at Cinderella, tearing her beautiful gown.",
+        "paragraph": "As Cinders stuffed her face, a terrible scream tore out. The prince looked up as a lurching decayed creature groaned out a moan. “Aunt Mildred? Aren’t you dead?” he exclaimed as the creature lurched toward him. Still more monsters grabbed at Cinderella, tearing her beautiful gown.",
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "zombieAttackScene2",
@@ -247,20 +247,20 @@ buttonOption2.addEventListener('click', () => {
 loadArt = (scene) => {
     if (scene === "zombieAttackScene1") {
         console.log("hello");
-        document.getElementById("cinders_scoffing").classList.remove("invisible");
-        document.getElementById("cinders_scoffing").classList.add("fade-in-image");
     };
 };
 
 /* Feed JSON data into the HTML elements for rendering */
 loadScene = (scene) => {
 
+    /* grab the HTML elements and apply the necessary text from the script */
     paragraph.innerHTML = script[scene].paragraph;
     buttonOption1.innerHTML = script[scene].option1;
     buttonOption2.innerHTML = script[scene].option2;
 
     loadArt(scene);
 
+    /* Remove button 2 from the scene if it is not needed */
     if (script[scene].option2 === "disabled") {
         buttonOption2.classList.add("invisible")
     } else {
