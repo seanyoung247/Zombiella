@@ -44,6 +44,7 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
         * [Clone the Repo](#clone-the-repo-with-gitpod)
         * [Set up your Workspace](#set-up-your-workspace)
         * [Deployment via Heroku](#deployment-via-heroku)
+    * [Dev-Log](#dev-log)
     * [Credits](#credits)
 # UX
 
@@ -198,6 +199,13 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 ## Existing Features
 
+* **Header**: shows the title of the story and when click the page reloads, this allows the user to start the story again.
+
+* **Navigation bar**: it allows the user to navigate through the story by providing the correct buttons to carry on with the story. It is composed by a "next" button, "read again" button, and two buttons that allow the user to pick a cjoice when required.
+
+* **Scene area**: area where the user can see the animation of the story.
+
+* **Footer**: it contains the link to the Github and LinkedIn profiles of all the developers working on the project.
 
 &nbsp;
 
@@ -231,6 +239,7 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 * For final colour pallet [Colourmind](http://colormind.io/ "Colourmind")
 * For the fonts [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * For colour contrast checking [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM")
+* For the blood drips [Adib Behjat](https://codepen.io/abehjat/pen/oXMENv "Adib Behjat")
 
 
 # Testing
@@ -329,9 +338,19 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 \
 &nbsp;
 
+# Dev-Log
+
+## Andrew Dempsey
+
+This Hackathon was a very enjoyable experience. I had the opportunity to work with a team of super talented and motivated coders. The 'Spookatooners' worked great together by keeping each other motivated, lending a helping hand when needed & giving feedback as well as suggestions on each other's work. We all learned a great deal about working together as a team, planning and managing tasks within a large project as well as learning valuable new technical skills. The best parts of the experience were producing an excellent end product, making new friends and of course, having fun!
+
+## Ana Genover
+
+I have highly enjoyed participating in this hackaton. It is fantastic to have had the opportunity to work on a project with other students, learn together, be supportive to each other and, most importantly have fun. Overall it is been a great experience, this is my first hackaton and I will surely register for the next one.
+
 # Credits
 
-
+We would like to thank our AMAZING facilitator Stefan for his advice and guidance
 
 \
 &nbsp;

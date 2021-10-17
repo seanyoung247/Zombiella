@@ -9,6 +9,17 @@
         1.5 body
     2. General
         2.1 Header font
+    3. Buttons
+        3.1 Bootstrap buttons
+        3.2 Options buttons
+    4. Navbar
+        4.1 Main Nav
+        4.2 Navbar blood drops
+    5. Footer
+    6. Main content
+
+
+    ?. Media Queries
 */
 
 
@@ -47,13 +58,264 @@ body {
     font-size: 1.6rem;
     height: 100vh;
     font-family: 'Arvo', serif;
-    font-weight: 400;
+    letter-spacing: 1px;
     background-color: var(--white);
 }
 
 
 /* 2. General */
 /* 2.1 Header font */
+
 .header-font {
     font-family: 'Creepster', cursive;
+    letter-spacing: 8px;
 }
+
+/* 2.2 Display flex */
+.display-flex {
+    display: flex;
+}
+
+/* 2.3 Text-center */
+.txt-cntr {
+    text-align: center;
+}
+
+
+/* 3. Buttons */
+/* 3.1 Bootstrap buttons */
+
+.btn:focus {
+    box-shadow: none;
+}
+
+/* 3.2 Option buttons */
+  
+  .btn-pumpkin {
+    background-color: var(--orange);
+    height: 15rem;
+    width: 20rem;
+    border-radius: 45%;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+/*
+  .btn-pumpkin::before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    bottom: 22rem;
+    left: 2rem;
+    border-left: 15px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 18px solid green;
+  }
+  */
+  .grow {
+    animation: grow-pumpkin 0.5s ease-in forwards;
+  }
+  
+  .shrink {
+    animation: shrink-pumpkin 0.5s ease-in forwards;
+  }
+  
+  @keyframes grow-pumpkin {
+    0% {
+        height: 15rem;
+        width: 20rem;
+    }
+    100% {
+        height: 17rem;
+        width: 22rem;
+    }
+  }
+  
+  @keyframes shrink-pumpkin {
+    0% {
+        height: 17rem;
+        width: 22rem; 
+    }
+    100% {
+        height: 15rem;
+        width: 20rem;
+    }
+  }
+  
+
+/* 3.2 Option buttons */
+.opt-btns {
+    height: 20%;
+}
+
+/* 4. Navbar */
+/* 4.1 Main Nav */
+.nav-bar {
+    background-color: var(--purple);
+    height: 6.5rem;
+    padding: 1rem 3rem;
+    border-bottom: 2px solid var(--orange);
+}
+
+.nav-bar-header {
+    color: var(--white);
+    font-size: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0px 6px 6px var(--red)
+}
+
+
+/* 5. Footer */
+
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 12rem;
+    background-color: var(--purple);
+    border-top: 2px solid var(--orange);
+}
+
+.social-links-hint {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.links-outer-container {
+    width: 90%;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.social-link {
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 1px solid var(--black);
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+}
+
+.social-link:active {
+    box-shadow: 0px 0px 12px 5px var(--white);
+}
+
+.social-1 {
+    color: var(--black);
+    background-color: var(--orange);
+}
+
+.social-2 {
+    color: var(--red);
+    background-color: var(--white);
+}
+
+.social-3 {
+    color: var(--white);
+    background-color: var(--red);
+}
+
+.social-4 {
+    color: var(--orange);
+    background-color: var(--black);
+}
+
+.social-1:hover {
+    color: var(--orange);
+    background-color: var(--black);
+}
+
+.social-2:hover {
+    color: var(--white);
+    background-color: var(--red);
+}
+
+.social-3:hover {
+    color: var(--red);
+    background-color: var(--white);
+}
+
+.social-4:hover {
+    color: var(--black);
+    background-color: var(--orange);
+}
+
+
+/* 6. Main Content*/
+.background-img {
+    height: 78vh;
+    width: auto;
+}
+
+#paragraph {
+    background-color: var(--purple);
+    height: 90%;
+    border-radius: 1rem;
+    color: var(--white);
+    font-size: 2rem;
+    box-shadow: 0px 0px 15px var(--white);
+    line-height: 3rem;
+}
+
+.p-container {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: var(--black);
+    box-shadow: 0px 0px 5rem var(--red)
+}
+
+.btn-pumpkin-container {
+    height: 22rem;
+}
+
+
+/* ?. Media Queries */
+
+/*  ?. >=992px (Desktop) */
+
+@media (min-width: 992px) {
+    .links-outer-container {
+        width: 40%;
+}
+
+    .footer-container {
+        flex-direction: row-reverse;
+        height: 10rem;
+    }
+
+    .nav-bar-header {
+        font-size: 5rem;
+        letter-spacing: 12px;
+    }
+
+    .nav-bar {
+        height: 7.5rem;
+    }
+
+    .blood-drop8 {
+        left: 17rem;
+    }
+
+    .blood-drop5 {
+        left: 21rem;
+    }
+
+}
+
