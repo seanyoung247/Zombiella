@@ -330,5 +330,9 @@ body {
         font-size: 4rem;
     }
 
+    .nav-bar {
+        height: 7.5rem;
+    }
+
 }
 
