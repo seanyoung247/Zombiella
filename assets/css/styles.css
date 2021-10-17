@@ -92,9 +92,6 @@ body {
     display: flex;
 }
 
-p {
-    margin: 0
-}
 
 /* 3. Buttons */
 /* 3.1 Bootstrap buttons */
@@ -103,28 +100,10 @@ p {
     box-shadow: none;
 }
 
-/* 3.2 Nav buttons */
-
-.nav-button {
-    color: var(--black);
-    font-size: 1.5rem;
-    border-radius: 5px;
-    background: rgb(228, 133, 42);
-}
-
-.nav-button:hover {
-    background-color: var(--red);
-    color: var(--white);
-}
-
-.nav-button:active {
-    box-shadow: 0px 0px 10px 2px var(--orange);
-    color: var(--orange);
-}
 
 /* 4. Navbar */
 /* 4.1 Main Nav */
-.navbar {
+.nav-bar {
     background-color: var(--purple);
     height: 6.5rem;
     padding: 1rem 3rem;
@@ -132,14 +111,12 @@ p {
 }
 
 
-.navbar-brand {
+.nav-bar-header {
     color: var(--white);
     font-size: 2.5rem;
     cursor: pointer;
-}
-
-.navbar-brand:hover {
-    color: var(--white);
+    text-decoration: none;
+    text-align: center;
     text-shadow: 0px 6px 6px var(--red)
 }
 
@@ -147,53 +124,62 @@ p {
 /* 4.2 Navbar blood drops */
 
 .blood-drop1 {
-    top: 1.2rem;
-    animation-duration: 3s;
+    top: 2rem;
+    left: 10rem;
+    animation-duration: 3s;;
 }
 
 .blood-drop2 {
-    top: 0;
+    top: 2.5rem;
+    left: 5rem;
     animation-duration: 5s;
 }
 
 .blood-drop3 {
-    top: -1rem;
+    top: -2rem;
+    left: -7rem;
     animation-duration: 3s;
 }
 
 .blood-drop4 {
     top: 2rem;
+    left: 6rem;
     animation-duration: 5s;
 }
 
 .blood-drop5 {
-    top: 0;
+    top: 0rem;
+    left: 10rem;
     animation-duration: 4s;
 }
 
 .blood-drop6 {
-    top: 0.6rem;
-    animation-duration: 3s;
+    top:0rem;
+    left: -11rem;
+    animation-duration: 2s;
 }
 
 .blood-drop7 {
-    top: 1.2rem;
+    top: 0rem;
+    left: 8rem;
     animation-duration: 2s;
 }
 
 .blood-drop8 {
-    top: 0.6rem;
+    top: 1rem;
     animation-duration: 5s;
 }
 
 .blood-drop9 {
-    top: -2rem;
+    top: 0rem;
+    left: -16rem;
     animation-duration: 3s;
 }
 
 .blood-drop10 {
-    top: 1.6rem;
-    animation-duration: 2s;
+    top: 0rem;
+    left: 3rem;
+    animation-duration: 4s;
 }
 
 .drop {
@@ -329,6 +315,22 @@ p {
     .footer-container {
         flex-direction: row-reverse;
         height: 10rem;
+    }
+
+    .nav-bar-header {
+        font-size: 4rem;
+    }
+
+    .nav-bar {
+        height: 7.5rem;
+    }
+
+    .blood-drop8 {
+        left: 17rem;
+    }
+
+    .blood-drop5 {
+        left: 21rem;
     }
 
 }
