@@ -33,6 +33,9 @@
         4.1 Main Nav
         4.2 Navbar blood drops
     5. Footer
+
+
+    ?. Media Queries
 */
 
 
@@ -227,26 +230,24 @@ p {
 /* 5. Footer */
 
 .footer-container {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 6.5rem;
+    height: 12rem;
     background-color: var(--purple);
     border-top: 2px solid var(--orange);
 }
 
-.social-links-text {
+.social-links-hint {
     color: var(--white);
-    text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .links-outer-container {
-    width: 40%;
+    width: 90%;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
@@ -313,3 +314,22 @@ p {
     color: var(--black);
     background-color: var(--orange);
 }
+
+
+
+/* ?. Media Queries */
+
+/*  ?. >=992px (Desktop) */
+
+@media (min-width: 992px) {
+    .links-outer-container {
+        width: 40%;
+}
+
+    .footer-container {
+        flex-direction: row-reverse;
+        height: 10rem;
+    }
+
+}
+
