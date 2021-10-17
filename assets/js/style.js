@@ -1,9 +1,5 @@
-
-/* Create grow and shrink effect on the pumpkin buttons */
-
 const pumpkinBtnOneRef = document.getElementById('buttonOption1')
 const pumpkinBtnTwoRef = document.getElementById('buttonOption2')
-
 
 const growPumpkin1 = () => {
   pumpkinBtnOneRef.classList.remove('shrink');
@@ -16,15 +12,14 @@ const shrinkPumpkin1 = () => {
 }
 
 const growPumpkin2 = () => {
-    pumpkinBtnTwoRef.classList.remove('shrink');
-    pumpkinBtnTwoRef.classList.add('grow');
-  }
-  
-  const shrinkPumpkin2 = () => {
-    pumpkinBtnTwoRef.classList.remove('grow');
-    pumpkinBtnTwoRef.classList.add('shrink');
-  }
+  pumpkinBtnTwoRef.classList.remove('shrink');
+  pumpkinBtnTwoRef.classList.add('grow');
+}
 
+const shrinkPumpkin2 = () => {
+  pumpkinBtnTwoRef.classList.remove('grow');
+  pumpkinBtnTwoRef.classList.add('shrink');
+}
 
 pumpkinBtnOneRef.addEventListener('mouseover', growPumpkin1);
 pumpkinBtnOneRef.addEventListener('mouseout', shrinkPumpkin1);
