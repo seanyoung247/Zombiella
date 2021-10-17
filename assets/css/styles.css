@@ -101,18 +101,6 @@ body {
     font-size: 2rem;
   }
 
-  .btn-pumpkin-left::before {
-    content: "";
-    position: absolute;
-    width: 0; 
-    height: 0; 
-    top: 53%;
-    left: 24%;
-    border-left: 15px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 18px solid green;
-  }
-
   .btn-pumpkin-right {
     background-color: var(--orange);
     height: 15rem;
@@ -123,18 +111,6 @@ body {
     font-size: 2rem;
   }
 
-  .btn-pumpkin-right::before {
-    content: "";
-    position: absolute;
-    width: 0; 
-    height: 0; 
-    bottom: 24%;
-    left: 36%;
-    border-left: 15px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 18px solid green;
-  }
-  
   .grow {
     animation: grow-pumpkin 0.5s ease-in forwards;
   }
