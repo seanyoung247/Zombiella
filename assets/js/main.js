@@ -89,7 +89,127 @@ let script = {
         "paragraph": "With tears on her eyes, she looks desperately at the tomb: “I don’t know what to do… My life is so miserable, but it is the only thing I know… If I reject them, I will be lonely for the rest of my life! I am not sure I am brave enough… What should I do next?",
         "option1": "Find parent's grave",
         "option2": "Make a wish",
-        "option1Result": "targetScene",
+        "option1Result": "findGraveScene1",
+        "option2Result": "carriageScene"
+    },
+    "findGraveScene1":
+    {
+        "paragraph": "Cinderella decides to carry on looking for her parent’s graveyard. Her desperation increases and the tears in her eyes doesn’t let her see where she puts her feet. The sun is going down and it’s getting darker and colder, finally she sees the graveyard but doesn’t see the open grave on the way and falls into it.",
+        "option1": "Next",
+        "option2": "disabled",
+        "option1Result": "findGraveScene2",
+        "option2Result": "na"
+    },
+    "findGraveScene2":
+    {
+        "paragraph": "Desperately she tries to climb up, but the soil is too soft and can’t get a good grip. She is covered in blood and is getting darker and colder with the night arriving. Resigned she seats in one of the corners and freezes to death. THE END",
+        "option1": "Thaw out and return to the begining",
+        "option2": "disabled",
+        "option1Result": "intro",
+        "option2Result": "na"
+    },
+    "carriageScene":
+    {
+        "paragraph": "Barely had Cinderella uttered the words of her wish, then with a snap did her rags turn into a beautiful ball gown. A desultory decaying pumpkin instantly turned into a fine carriage pulled by stunning white horses and attended by a smart page. Gleefully Cinderella jumped into the carriage, and it lurched off to the Ball.",
+        "option1": "Next",
+        "option2": "disabled",
+        "option1Result": "theBallScene1",
+        "option2Result": "na"
+    },
+    "theBallScene1":
+    {
+        "paragraph": "As Cinderella entered the Palace everyone was awestruck by the unknown Beauty making her first public appearance. Cinderella was stunned by all the finery, but most of all the buffet table, since she was only allowed to eat porridge at home. Instantly, the Prince introduced himself and asked Cinderella to dance.",
+        "option1": "Next",
+        "option2": "disabled",
+        "option1Result": "theBallScene2",
+        "option2Result": "na"
+    },
+    "theBallScene2":
+    {
+        "paragraph": "She hesitates. What should she do? Dance with the Prince or eat all those delicious foods she will probably never have the occasion to taste ever again?",
+        "option1": "Dance with the Prince",
+        "option2": "Visit the bufeet table",
+        "option1Result": "danceScene",
+        "option2Result": "zombieAttackScene1"
+    },
+    "danceScene":
+    {
+        "paragraph": "Cinderella forgets about the buffet and starts dancing with the Prince. It’s love at the first sight and they both feel like they are floating in the air, and no one is around them. Because they are completely absorbed looking at each other’s eyes they do not realise the dead have risen and attacking everyone at the ball. They both die together, eaten by the Prince’s aunt Mildred. She never really liked the Prince. THE END",
+        "option1": "Return to begining",
+        "option2": "disabled",
+        "option1Result": "intro",
+        "option2Result": "na"
+    },
+    "zombieAttackScene1":
+    {
+        "paragraph": "As Cinders (danced with prince/stuffed her face) a terrible scream tore out. The prince looked up as a lurching decayed creature groaned out a moan. “Aunt Mildred? Aren’t you dead?” he exclaimed as the creature lurched toward him. Still more monsters grabbed at Cinderella, tearing her beautiful gown.",
+        "option1": "Next",
+        "option2": "disabled",
+        "option1Result": "zombieAttackScene2",
+        "option2Result": "na"
+    },
+    "zombieAttackScene2":
+    {
+        "paragraph": "Something needs to be done, what should Cinderella do?",
+        "option1": "Let the prince deal with the Zombies",
+        "option2": "Get medieval on their asses",
+        "option1Result": "princeDeathScene",
+        "option2Result": "fightScene1"
+    },
+    "princeDeathScene":
+    {
+        "paragraph": "The prince, more used to ordering daiquiris than wielding daggers, is torn to shreds. The kingdom falls to the Zombie horde. THE END",
+        "option1": "Return to begining",
+        "option2": "disabled",
+        "option1Result": "intro",
+        "option2Result": "na"
+    },
+    "fightScene1":
+    {
+        "paragraph": "Enraged by the prospect of her first ever ball being ruined by the Zombies, Cinderella flings the Zombies clutching at her away. Removing her stillettos she exclaimed “I came here to dance in a fabulous ball gown and slay Zombies… And you just tore my ball gown!",
+        "option1": "Next",
+        "option2": "disabled",
+        "option1Result": "fightScene2",
+        "option2Result": "na"
+    },
+    "fightScene2":
+    {
+        "paragraph": "Wielding her shoes as weapons she began cleaving Zombies left and right. The undead scattered before her until the dance floor was covered in decaying bodies. Just as the Zombie horde seemed to be thinning, a panicked scream rang out. Cinderella’s stepfamily was surrounded by more of the flesh craving cadavers!",
+        "option1": "Next",
+        "option2": "disabled",
+        "option1Result": "fightScene3",
+        "option2Result": "na"
+    },
+    "fightScene3":
+    {
+        "paragraph": "Cinderella looks at her stepfamily and remembers all the horrible things they did and told to her. She deeply hesitates, what should Cinderella do?",
+        "option1": "Save the ungrateful wretches",
+        "option2": "Leave them to their fate",
+        "option1Result": "mildredScene",
+        "option2Result": "proposalScene"
+    },
+    "mildredScene":
+    {
+        "paragraph": "At the last second Cinderella shows pity and decides to save her stepfamily even if they don’t deserve it. She fights the zombies with her stilettos and puts them in a safe place, however her stepsisters saw the undead Aunt Mildred at Cinderella’s back but do not warn her. She gets eaten by Aunt Mildred and the stepfamily is happy they don’t have to see Cinderella ever again. THE END",
+        "option1": "Return to begining",
+        "option2": "disabled",
+        "option1Result": "intro",
+        "option2Result": "na"
+    },
+    "proposalScene":
+    {
+        "paragraph": "As the final Zombie collapsed to the floor, shoe heel stuck deep in its ear, the cowering Prince ran to Cinderella and fell to one knee. “You’re magnificent!” He exclaimed. “You saved us all! Will you marry me?",
+        "option1": "Next",
+        "option2": "disabled",
+        "option1Result": "goodEndingScene",
+        "option2Result": "intro"
+    },
+    "goodEndingScene":
+    {
+        "paragraph": "'Nah', said Cinder’s. 'I’ve got a lot of cleaning up to do', she added yanking her shoe from the Zombie’s skull with a wet slap. Without a second look Cinderella strolled out of the palace, to eradicate the Zombie menace once and for all.",
+        "option1": "Read again",
+        "option2": "disabled",
+        "option1Result": "intro",
         "option2Result": "na"
     },
 };
