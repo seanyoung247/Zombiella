@@ -348,7 +348,7 @@ body {
 @media (min-width: 768px) {
     
     .btn-pumpkin-right::before, .btn-pumpkin-left::before {
-        bottom: 26%;
+        bottom: 27%;
     }
 
 }
