@@ -243,12 +243,23 @@ buttonOption2.addEventListener('click', () => {
     loadScene(currentScene);
 });
 
+/* Load art assets based on what scene the user is viewing */
+loadArt = (scene) => {
+    if (scene === "zombieAttackScene1") {
+        console.log("hello");
+        document.getElementById("cinders_scoffing").classList.remove("invisible");
+        document.getElementById("cinders_scoffing").classList.add("fade-in-image");
+    };
+};
+
 /* Feed JSON data into the HTML elements for rendering */
 loadScene = (scene) => {
 
     paragraph.innerHTML = script[scene].paragraph;
     buttonOption1.innerHTML = script[scene].option1;
     buttonOption2.innerHTML = script[scene].option2;
+
+    loadArt(scene);
 
     if (script[scene].option2 === "disabled") {
         buttonOption2.classList.add("invisible")
