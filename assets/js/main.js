@@ -8,6 +8,7 @@ let currentScene = "intro";
 /* script data in JSON format. The opening key of each block denotes the scene that
 *  will be rendered. the paragraph key is the text the the user will see in each scene
 *  option1 and option2 will render on each UI button.
+*  Doc[//www.]
 *  The result keys will be fed into the loadScene() function
 */
 

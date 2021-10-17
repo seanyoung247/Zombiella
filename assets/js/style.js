@@ -1,6 +1,6 @@
 
 /* Create grow and shrink effect on the pumpkin buttons */
-const pumpkinGrowRef = document.querySelector('.btn-pumpkin');
+const pumpkinGrowRef = document.querySelectorAll('.btn-pumpkin');
 
 
 const growPumpkin = () => {
