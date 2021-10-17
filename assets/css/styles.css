@@ -121,7 +121,7 @@ body {
 
 /* 4. Navbar */
 /* 4.1 Main Nav */
-.navbar {
+.nav-bar {
     background-color: var(--purple);
     height: 6.5rem;
     padding: 1rem 3rem;
