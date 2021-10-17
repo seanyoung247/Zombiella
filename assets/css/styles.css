@@ -322,3 +322,10 @@ p {
         width: 40%;
 }
 
+    .footer-container {
+        flex-direction: row-reverse;
+        height: 10rem;
+    }
+
+}
+
