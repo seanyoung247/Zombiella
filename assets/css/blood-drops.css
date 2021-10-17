@@ -1,7 +1,7 @@
 .blood-drop1 {
     top: 2rem;
     left: 10rem;
-    animation-duration: 3s;;
+    animation-duration: 3s;
 }
 
 .blood-drop2 {
@@ -67,7 +67,7 @@
     animation-name: drip;
     animation-iteration-count: infinite;
   }
-  
+
   .drop:before {
     content: "";
     position: absolute;
@@ -78,8 +78,8 @@
     border-bottom: 3rem solid red;
     top: -2rem;
   }
-  
-  
+
+
   @keyframes drip {
       to {
         top: 5rem;
