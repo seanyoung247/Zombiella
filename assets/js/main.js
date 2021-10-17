@@ -143,7 +143,7 @@ let script = {
     },
     "zombieAttackScene1":
     {
-        "paragraph": "As Cinders (danced with prince/stuffed her face) a terrible scream tore out. The prince looked up as a lurching decayed creature groaned out a moan. “Aunt Mildred? Aren’t you dead?” he exclaimed as the creature lurched toward him. Still more monsters grabbed at Cinderella, tearing her beautiful gown.",
+        "paragraph": "As Cinders stuffed her face, a terrible scream tore out. The prince looked up as a lurching decayed creature groaned out a moan. “Aunt Mildred? Aren’t you dead?” he exclaimed as the creature lurched toward him. Still more monsters grabbed at Cinderella, tearing her beautiful gown.",
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "zombieAttackScene2",
