@@ -1,6 +1,7 @@
 ![ZOMBIELLA](readme-images/splash-image.jpg)
 
-# ZOMBIELLA
+&nbsp;
+
 A story of love, confidence and Zombies!
 
 If you are brave enough to visit the live story, follow this [link](https://andrewdempsey2018.github.io/Zombiella/ "Zombiella")
@@ -207,11 +208,13 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 * **Navigation bar**: it allows the user to navigate through the story by providing the correct buttons to carry on with the story. It is composed by a "next" button, "read again" button, and two buttons that allow the user to make a choice when required.
 
+![Story Buttons](readme-images/features/buttons.jpg)
+
 &nbsp;
 
 * **Scene area**: area where the user can see the animation of the story.
 
-![Scene area image](readme-images/features/scene.jpg) ![Scene area script](readme-images/features/scene1.jpg)
+![Scene area script](readme-images/features/story-screen.jpg)
 
 &nbsp;
 
@@ -257,7 +260,7 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 * For final colour pallet [Colourmind](http://colormind.io/ "Colourmind")
 * For the fonts [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * For colour contrast checking [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM")
-* For the blood drips [Adib Behjat](https://codepen.io/abehjat/pen/oXMENv "Adib Behjat")
+* For the background on the main story [CSS gradient](https://cssgradient.io/ "CSS gradient")
 
 
 # Testing
@@ -318,11 +321,12 @@ Our testing group consisted of a couple of age groups and varied abilities invol
 
 ## Code Validation
 
-Our code has been validated using:
+Our code passes the validators with no errors and has been validated using:
 
 * HTML - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * CSS - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * JavaScript - [Esprima](https://esprima.org/demo/validate.html "Esprima")
+
 
 
 \
@@ -391,6 +395,10 @@ For my first hackathon, I joined apprehensive of what was involved. With a quali
 We would like to thank our AMAZING facilitator Stefan for his advice and guidance
 
 Some artwork based on reference material by [okojochan](https://www.patreon.com/okojochan)
+
+
+The basic code for the blood drips came from [Adib Behjat](https://codepen.io/abehjat/pen/oXMENv "Adib Behjat") and was adapted for our needs
+
 
 \
 &nbsp;
