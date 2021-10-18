@@ -361,7 +361,9 @@ I have highly enjoyed participating in this hackaton. It is fantastic to have ha
 
 ## Sean Young
 
-## Sam Timmings
+## Sam Timmins
+
+For my first hackathon, I joined apprehensive of what was involved. With a quality team of coders, my jitters were soon put to rest. We ended up being a very balanced team, each having a talent in different aspects of the project to bring together a great final result. I went in with very little Github experience, and thanks to the patience of the team, I feel much more comfortable with it. Working in a team to create a project, has made me approach the process differently and I will be using this experience to add to my creations.
 
 # Credits
 
