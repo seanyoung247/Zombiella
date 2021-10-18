@@ -1,3 +1,5 @@
+![ZOMBIELLA](readme-images/splash-image.jpg)
+
 # ZOMBIELLA
 A story of love, confidence and Zombies!
 
@@ -263,12 +265,16 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 # Testing
 
-
+Our testing group consisted of a couple of age groups and varied abilities involving tech. We asked them to simply navigate through the story and find their own ending.
 
 &nbsp;
 
 | Age | Tech Experience | Task Completed | Comments/ Improvements
 | --- | ----------      | -------------  | --------
+| 7 | Basic | Yes | Cool story
+| 6 | Basic | Yes | Better than my book
+| 6 | Basic | Yes | I like the zombies
+| 42 | Moderate | Yes | Well done, it looks great
 
 
 &nbsp;
@@ -279,7 +285,11 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 | Requirements & Expectations | Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
-
+| Know the title of the story | Yes | Yes | Clear and obvious at the top of the screen
+| Clear definition between parts of the story | Yes| Yes | The text on the screen changes to indicate this
+| Animations that are relevant | Yes | Yes | Blood drops and the artwork
+| Screen displays to be different for each part of the story | Yes | Yes | Artwork changes with the story
+| Ability to reread the story after completion | Yes | Yes | Buttons prompt to read again
 
 &nbsp;
 
@@ -287,6 +297,9 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 | User Goals | Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
+| An entertaining story that keeps interested running | Yes | Yes | Completed
+| A familiar story, but with unusual twists and endings | Yes | Yes | Completed
+| An obvious Halloween them | Yes | Yes | Completed
 
 
 &nbsp;
@@ -295,6 +308,11 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 | Site Owners Goals | Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
+| Single page layout with clear text displayed | Yes | Yes | Completed
+| Depict a Halloween story with a dramatic twist | Yes | Yes | Completed
+| Ensure the story can be interacted with in some way | Yes | Yes | Completed
+| Include animated elements | Yes | Yes | Completed
+
 
 
 \
