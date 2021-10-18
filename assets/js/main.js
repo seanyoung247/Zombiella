@@ -70,8 +70,8 @@ let script = {
     "porridgeScene":
     {
         "paragraph": "Cinderella looks at the porridge on the floor and at the door. Should she clean up the porridge or go to the graveyard to visit her loved ones?",
-        "option1": "Flee stepmothers house!!",
-        "option2": "Clean up porridge",
+        "option1": "Flee house!",
+        "option2": "Clean up",
         "option1Result": "graveyardScene1",
         "option2Result": "porridgeEnd",
         art: "cinders_looking-at_poridge"
@@ -79,7 +79,7 @@ let script = {
     "porridgeEnd":
     {
         "paragraph": "Cinderella looks at the porridge on the floor and at the door. She hesitates for a couple of seconds, she felt the weight of the world was on her shoulders. Resigned she knelled and started cleaning the mess her stepsisters did believing she only deserves to be miserable for the rest of her life. THE END",
-        "option1": "Return to begining",
+        "option1": "Restart",
         "option2": "disabled",
         "option1Result": "intro",
         "option2Result": "na",
@@ -97,7 +97,7 @@ let script = {
     "graveyardScene2":
     {
         "paragraph": "With tears on her eyes, she looks desperately at the tomb: “I don’t know what to do… My life is so miserable, but it is the only thing I know… If I reject them, I will be lonely for the rest of my life! I am not sure I am brave enough… What should I do next?",
-        "option1": "Find parent's grave",
+        "option1": "Find parents",
         "option2": "Make a wish",
         "option1Result": "findGraveScene1",
         "option2Result": "carriageScene",
@@ -115,7 +115,7 @@ let script = {
     "findGraveScene2":
     {
         "paragraph": "Desperately she tries to climb up, but the soil is too soft and can’t get a good grip. She is covered in blood and is getting darker and colder with the night arriving. Resigned she seats in one of the corners and freezes to death. THE END",
-        "option1": "Thaw out and return to the begining",
+        "option1": "Restart",
         "option2": "disabled",
         "option1Result": "intro",
         "option2Result": "na",
@@ -142,8 +142,8 @@ let script = {
     "theBallScene2":
     {
         "paragraph": "She hesitates. What should she do? Dance with the Prince or eat all those delicious foods she will probably never have the occasion to taste ever again?",
-        "option1": "Dance with the Prince",
-        "option2": "Visit the bufeet table",
+        "option1": "Dance",
+        "option2": "Eat",
         "option1Result": "danceScene",
         "option2Result": "zombieAttackScene1",
         art: "cinders_awe_struck"
@@ -151,7 +151,7 @@ let script = {
     "danceScene":
     {
         "paragraph": "Cinderella forgets about the buffet and starts dancing with the Prince. It’s love at the first sight and they both feel like they are floating in the air, and no one is around them. Because they are completely absorbed looking at each other’s eyes they do not realise the dead have risen and attacking everyone at the ball. They both die together, eaten by the Prince’s aunt Mildred. She never really liked the Prince. THE END",
-        "option1": "Return to begining",
+        "option1": "Restart",
         "option2": "disabled",
         "option1Result": "intro",
         "option2Result": "na",
@@ -169,8 +169,8 @@ let script = {
     "zombieAttackScene2":
     {
         "paragraph": "Something needs to be done, what should Cinderella do?",
-        "option1": "Let the prince deal with the Zombies",
-        "option2": "Get medieval on their asses",
+        "option1": "Prince",
+        "option2": "Cinders",
         "option1Result": "princeDeathScene",
         "option2Result": "fightScene1",
         art: "cinders_and_prince_attacked"
@@ -178,7 +178,7 @@ let script = {
     "princeDeathScene":
     {
         "paragraph": "The prince, more used to ordering daiquiris than wielding daggers, is torn to shreds. The kingdom falls to the Zombie horde. THE END",
-        "option1": "Return to begining",
+        "option1": "Restart",
         "option2": "disabled",
         "option1Result": "intro",
         "option2Result": "na",
@@ -205,8 +205,8 @@ let script = {
     "fightScene3":
     {
         "paragraph": "Cinderella looks at her stepfamily and remembers all the horrible things they did and told to her. She deeply hesitates, what should Cinderella do?",
-        "option1": "Save the ungrateful wretches",
-        "option2": "Leave them to their fate",
+        "option1": "Save them",
+        "option2": "Leave them",
         "option1Result": "mildredScene",
         "option2Result": "proposalScene",
         art: "sister_1_cowering"
@@ -214,7 +214,7 @@ let script = {
     "mildredScene":
     {
         "paragraph": "At the last second Cinderella shows pity and decides to save her stepfamily even if they don’t deserve it. She fights the zombies with her stilettos and puts them in a safe place, however her stepsisters saw the undead Aunt Mildred at Cinderella’s back but do not warn her. She gets eaten by Aunt Mildred and the stepfamily is happy they don’t have to see Cinderella ever again. THE END",
-        "option1": "Return to begining",
+        "option1": "Restart",
         "option2": "disabled",
         "option1Result": "intro",
         "option2Result": "na",
@@ -240,7 +240,7 @@ let script = {
     },
 };
 
-/* add scene template 
+/* add scene template
 "sceneName":
     {
         "paragraph": "scene text",
@@ -257,6 +257,8 @@ let script = {
 const paragraph = document.getElementById("paragraph");
 const buttonOption1 = document.getElementById("buttonOption1");
 const buttonOption2 = document.getElementById("buttonOption2");
+const buttonOptText1 = document.getElementById("pumpkinText1");
+const buttonOptText2 = document.getElementById("pumpkinText2");
 const mainImage = document.getElementById("mainImage");
 
 /* Buttons take the users choices and feed them into loadScene() */
@@ -296,8 +298,8 @@ loadScene = (scene) => {
 
     /* grab the HTML elements and apply the necessary text from the script */
     paragraph.innerHTML = script[scene].paragraph;
-    buttonOption1.innerHTML = script[scene].option1;
-    buttonOption2.innerHTML = script[scene].option2;
+    buttonOptText1.innerHTML = script[scene].option1;
+    buttonOptText2.innerHTML = script[scene].option2;
 
     loadArt(scene);
 
