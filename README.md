@@ -151,7 +151,7 @@ We have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to select 
 
 
 ### Colours
-Initially, we began looking for a colour pallet using [colorhunt](https://colorhunt.co/palettes/halloween "colorhunt") and searched using Halloween as a key work. From this, we converted the key colours into [Colourmind](http://colormind.io/ "Colourmind"), then completed the rest of the pallet. 
+Initially, we began looking for a colour pallet using [colorhunt](https://colorhunt.co/palettes/halloween "colorhunt") and searched using Halloween as a key work. From this, we converted the key colours into [Colourmind](http://colormind.io/ "Colourmind"), then completed the rest of the pallet.
 
 ![Final Colour Pallet](readme-images/colour-pallet/colour-pallet-final.jpg)
 
@@ -326,7 +326,7 @@ Our code has been validated using:
 
 
 \
-&nbsp; 
+&nbsp;
 
 
 ## Bugs
@@ -348,7 +348,7 @@ There are no unfixed bugs.
 # Deployment
 
 The live link for this project can be viewed [here](https://andrewdempsey2018.github.io/Zombiella/ "Zombiella")
- 
+
 ### Clone the repo with GitPod
 * Log in to your GitHub account
 * Follow this link to access this repository - [*ZOMBIELLA*](https://github.com/andrewdempsey2018/Zombiella "Zombiella")
@@ -380,6 +380,8 @@ I have highly enjoyed participating in this hackaton. It is fantastic to have ha
 
 ## Sean Young
 
+Hectic as ever I enjoyed this hackathon immensely. It was certainly a nice change of pace to get to create artwork while the rest of the team got on with the real work! 
+
 ## Sam Timmins
 
 For my first hackathon, I joined apprehensive of what was involved. With a quality team of coders, my jitters were soon put to rest. We ended up being a very balanced team, each having a talent in different aspects of the project to bring together a great final result. I went in with very little Github experience, and thanks to the patience of the team, I feel much more comfortable with it. Working in a team to create a project, has made me approach the process differently and I will be using this experience to add to my creations.
@@ -387,6 +389,8 @@ For my first hackathon, I joined apprehensive of what was involved. With a quali
 # Credits
 
 We would like to thank our AMAZING facilitator Stefan for his advice and guidance
+
+Some artwork based on reference material by [okojochan](https://www.patreon.com/okojochan)
 
 \
 &nbsp;
