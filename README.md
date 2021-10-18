@@ -44,8 +44,6 @@ This project is a Halloween themed story, loosely based on the fairy tale of Cin
         * [Unfixed Bugs](#unfixed-bugs)
     * [Deployment](#deployment)
         * [Clone the Repo](#clone-the-repo-with-gitpod)
-        * [Set up your Workspace](#set-up-your-workspace)
-        * [Deployment via Heroku](#deployment-via-heroku)
     * [Dev-Log](#dev-log)
     * [Credits](#credits)
 # UX
