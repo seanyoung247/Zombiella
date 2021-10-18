@@ -211,8 +211,7 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 * **Scene area**: area where the user can see the animation of the story.
 
-![Scene area](readme-images/features/scene.jpg)
-![Scene area](readme-images/features/scene1.jpg)
+![Scene area image](readme-images/features/scene.jpg) ![Scene area script](readme-images/features/scene1.jpg)
 
 &nbsp;
 
