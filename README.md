@@ -276,8 +276,6 @@ Our testing group consisted of a couple of age groups and varied abilities invol
 
 &nbsp;
 
-
-
 ### UX Testing
 
 | Requirements & Expectations | Implemented | Tested | Comments
@@ -320,7 +318,11 @@ Our testing group consisted of a couple of age groups and varied abilities invol
 
 ## Code Validation
 
+Our code has been validated using:
 
+* HTML - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* CSS - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* JavaScript - [Esprima](https://esprima.org/demo/validate.html "Esprima")
 
 
 \
