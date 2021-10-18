@@ -260,7 +260,6 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 * For final colour pallet [Colourmind](http://colormind.io/ "Colourmind")
 * For the fonts [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * For colour contrast checking [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM")
-* For the blood drips [Adib Behjat](https://codepen.io/abehjat/pen/oXMENv "Adib Behjat")
 * For the background on the main story [CSS gradient](https://cssgradient.io/ "CSS gradient")
 
 
@@ -396,6 +395,10 @@ For my first hackathon, I joined apprehensive of what was involved. With a quali
 We would like to thank our AMAZING facilitator Stefan for his advice and guidance
 
 Some artwork based on reference material by [okojochan](https://www.patreon.com/okojochan)
+
+
+The basic code for the blood drips came from [Adib Behjat](https://codepen.io/abehjat/pen/oXMENv "Adib Behjat") and was adapted for our needs
+
 
 \
 &nbsp;
