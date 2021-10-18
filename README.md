@@ -1,3 +1,5 @@
+![ZOMBIELLA](readme-images/splash-image.jpg)
+
 # ZOMBIELLA
 A story of love, confidence and Zombies!
 
@@ -201,11 +203,24 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 * **Header**: shows the title of the story and when clicked the page reloads, this allows the user to start the story again.
 
+![Header](readme-images/features/navbar.gif)
+
+&nbsp;
+
 * **Navigation bar**: it allows the user to navigate through the story by providing the correct buttons to carry on with the story. It is composed by a "next" button, "read again" button, and two buttons that allow the user to make a choice when required.
+
+&nbsp;
 
 * **Scene area**: area where the user can see the animation of the story.
 
+![Scene area](readme-images/features/scene.jpg)
+![Scene area](readme-images/features/scene1.jpg)
+
+&nbsp;
+
 * **Footer**: it contains the link to the Github and LinkedIn profiles of all the developers that worked on the project.
+
+![Footer](readme-images/features/footer.jpg)
 
 &nbsp;
 
@@ -250,12 +265,16 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 # Testing
 
-
+Our testing group consisted of a couple of age groups and varied abilities involving tech. We asked them to simply navigate through the story and find their own ending.
 
 &nbsp;
 
 | Age | Tech Experience | Task Completed | Comments/ Improvements
 | --- | ----------      | -------------  | --------
+| 7 | Basic | Yes | Cool story
+| 6 | Basic | Yes | Better than my book
+| 6 | Basic | Yes | I like the zombies
+| 42 | Moderate | Yes | Well done, it looks great
 
 
 &nbsp;
@@ -266,7 +285,11 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 | Requirements & Expectations | Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
-
+| Know the title of the story | Yes | Yes | Clear and obvious at the top of the screen
+| Clear definition between parts of the story | Yes| Yes | The text on the screen changes to indicate this
+| Animations that are relevant | Yes | Yes | Blood drops and the artwork
+| Screen displays to be different for each part of the story | Yes | Yes | Artwork changes with the story
+| Ability to reread the story after completion | Yes | Yes | Buttons prompt to read again
 
 &nbsp;
 
@@ -274,6 +297,9 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 | User Goals | Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
+| An entertaining story that keeps interested running | Yes | Yes | Completed
+| A familiar story, but with unusual twists and endings | Yes | Yes | Completed
+| An obvious Halloween them | Yes | Yes | Completed
 
 
 &nbsp;
@@ -282,6 +308,11 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 | Site Owners Goals | Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
+| Single page layout with clear text displayed | Yes | Yes | Completed
+| Depict a Halloween story with a dramatic twist | Yes | Yes | Completed
+| Ensure the story can be interacted with in some way | Yes | Yes | Completed
+| Include animated elements | Yes | Yes | Completed
+
 
 
 \
@@ -300,12 +331,12 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 
 ## Bugs
-
+We had an issue where one of our team members had a problem with VSCode. Something *spooky* happened and it managed to merge an old version with a new one leaving us with a complete mess. With such a solid and experienced team, one call and 5 minutes later we were able to fix this and get back on track.
 
 
 ## Unfixed Bugs
 
-
+There are no unfixed bugs.
 
 \
 &nbsp;
@@ -315,13 +346,11 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 # Deployment
 
-<!-- ADD LIVE LINK HERE -->
-
-
+The live link for this project can be viewed [here](https://andrewdempsey2018.github.io/Zombiella/ "Zombiella")
  
 ### Clone the repo with GitPod
 * Log in to your GitHub account
-* Follow this link to access this repository - ******* ENTER LINK HERE *******
+* Follow this link to access this repository - [*ZOMBIELLA*](https://github.com/andrewdempsey2018/Zombiella "Zombiella")
 * Select the **Code** dropdown button situated above the list of files
 * Make sure that the HTTPS tab is selected
 * Click on the **Copy** button to the right of the URL
@@ -331,12 +360,6 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 * Open your [GitPod workspaces](https://gitpod.io/workspaces "GitPod workspaces")
 * Select the three dots to the right-hand side of your workspace and select **Pin**
 
-
-### Set up your Workspace
-
-
-
-### Deployment via Heroku
 
 \
 &nbsp;
@@ -356,7 +379,9 @@ I have highly enjoyed participating in this hackaton. It is fantastic to have ha
 
 ## Sean Young
 
-## Sam Timmings
+## Sam Timmins
+
+For my first hackathon, I joined apprehensive of what was involved. With a quality team of coders, my jitters were soon put to rest. We ended up being a very balanced team, each having a talent in different aspects of the project to bring together a great final result. I went in with very little Github experience, and thanks to the patience of the team, I feel much more comfortable with it. Working in a team to create a project, has made me approach the process differently and I will be using this experience to add to my creations.
 
 # Credits
 
