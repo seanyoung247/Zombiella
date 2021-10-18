@@ -25,8 +25,8 @@
   <ellipse class="pumpkin_dark" cx="34.5" cy="148.25" rx="34.5" ry="70.5"/>
   <ellipse class="pumpkin_mid" cx="68.5" cy="148.25" rx="34.5" ry="76.5"/>
   <ellipse class="pumpkin_light" cx="102.5" cy="148.25" rx="34.5" ry="84.5"/>
-	
-    <text x="50%" y="60%" dominant-baseline="central" text-anchor="middle" class="pumpkin_text">
+
+    <text id="pumpkinText" x="50%" y="60%" dominant-baseline="central" text-anchor="middle" class="pumpkin_text">
       text
     </text>
   </g>
