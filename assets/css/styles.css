@@ -104,6 +104,7 @@ body {
 
   .btn-pumpkin-right {
     /* background-color: var(--orange); */
+    background-color: transparent;
     height: 15rem;
     width: 12rem;
     /* border-radius: 45%;
