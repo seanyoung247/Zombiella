@@ -388,6 +388,8 @@ For my first hackathon, I joined apprehensive of what was involved. With a quali
 
 We would like to thank our AMAZING facilitator Stefan for his advice and guidance
 
+Some artwork based on reference material by [okojochan](https://www.patreon.com/okojochan)
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
