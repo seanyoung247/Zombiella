@@ -19,7 +19,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "invitationScene1",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_rags"
     },
     "invitationScene1":
     {
@@ -27,7 +28,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "invitationScene2",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_rags"
     },
     "invitationScene2":
     {
@@ -35,7 +37,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "refusalScene1",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_excited_invitation"
     },
     "refusalScene1":
     {
@@ -43,7 +46,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "refusalScene2",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_scrubbing"
     },
     "refusalScene2":
     {
@@ -51,7 +55,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "refusalScene3",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_scrubbing"
     },
     "refusalScene3":
     {
@@ -59,7 +64,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "porridgeScene",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_scrubbing"
     },
     "porridgeScene":
     {
@@ -67,7 +73,8 @@ let script = {
         "option1": "Flee stepmothers house!!",
         "option2": "Clean up porridge",
         "option1Result": "graveyardScene1",
-        "option2Result": "porridgeEnd"
+        "option2Result": "porridgeEnd",
+        art: "cinders_unhappy"
     },
     "porridgeEnd":
     {
@@ -75,7 +82,8 @@ let script = {
         "option1": "Return to begining",
         "option2": "disabled",
         "option1Result": "intro",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_unhappy"
     },
     "graveyardScene1":
     {
@@ -83,7 +91,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "graveyardScene2",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_rags"
     },
     "graveyardScene2":
     {
@@ -91,7 +100,8 @@ let script = {
         "option1": "Find parent's grave",
         "option2": "Make a wish",
         "option1Result": "findGraveScene1",
-        "option2Result": "carriageScene"
+        "option2Result": "carriageScene",
+        art: "cinders_rags"
     },
     "findGraveScene1":
     {
@@ -99,7 +109,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "findGraveScene2",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_unhappy"
     },
     "findGraveScene2":
     {
@@ -107,7 +118,8 @@ let script = {
         "option1": "Thaw out and return to the begining",
         "option2": "disabled",
         "option1Result": "intro",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_curled_up"
     },
     "carriageScene":
     {
@@ -115,7 +127,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "theBallScene1",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_ballgown"
     },
     "theBallScene1":
     {
@@ -123,7 +136,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "theBallScene2",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_awe_struck"
     },
     "theBallScene2":
     {
@@ -131,7 +145,8 @@ let script = {
         "option1": "Dance with the Prince",
         "option2": "Visit the bufeet table",
         "option1Result": "danceScene",
-        "option2Result": "zombieAttackScene1"
+        "option2Result": "zombieAttackScene1",
+        art: "cinders_awe_struck"
     },
     "danceScene":
     {
@@ -139,7 +154,8 @@ let script = {
         "option1": "Return to begining",
         "option2": "disabled",
         "option1Result": "intro",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_and_prince_dancing"
     },
     "zombieAttackScene1":
     {
@@ -147,7 +163,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "zombieAttackScene2",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_scoffing"
     },
     "zombieAttackScene2":
     {
@@ -155,7 +172,8 @@ let script = {
         "option1": "Let the prince deal with the Zombies",
         "option2": "Get medieval on their asses",
         "option1Result": "princeDeathScene",
-        "option2Result": "fightScene1"
+        "option2Result": "fightScene1",
+        art: "prince_hero_pose"
     },
     "princeDeathScene":
     {
@@ -163,7 +181,8 @@ let script = {
         "option1": "Return to begining",
         "option2": "disabled",
         "option1Result": "intro",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: null
     },
     "fightScene1":
     {
@@ -171,7 +190,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "fightScene2",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_fight_pose"
     },
     "fightScene2":
     {
@@ -179,7 +199,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "fightScene3",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_kick"
     },
     "fightScene3":
     {
@@ -187,7 +208,8 @@ let script = {
         "option1": "Save the ungrateful wretches",
         "option2": "Leave them to their fate",
         "option1Result": "mildredScene",
-        "option2Result": "proposalScene"
+        "option2Result": "proposalScene",
+        art: null
     },
     "mildredScene":
     {
@@ -195,7 +217,8 @@ let script = {
         "option1": "Return to begining",
         "option2": "disabled",
         "option1Result": "intro",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: null
     },
     "proposalScene":
     {
@@ -203,7 +226,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "goodEndingScene",
-        "option2Result": "intro"
+        "option2Result": "intro",
+        art: "prince_proposing"
     },
     "goodEndingScene":
     {
@@ -211,7 +235,8 @@ let script = {
         "option1": "Read again",
         "option2": "disabled",
         "option1Result": "intro",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: "cinders_fight_pose"
     },
 };
 
@@ -222,7 +247,8 @@ let script = {
         "option1": "Next",
         "option2": "disabled",
         "option1Result": "targetScene",
-        "option2Result": "na"
+        "option2Result": "na",
+        art: null
     },
 */
 
@@ -231,6 +257,7 @@ let script = {
 const paragraph = document.getElementById("paragraph");
 const buttonOption1 = document.getElementById("buttonOption1");
 const buttonOption2 = document.getElementById("buttonOption2");
+const mainImage = document.getElementById("mainImage");
 
 /* Buttons take the users choices and feed them into loadScene() */
 buttonOption1.addEventListener('click', () => {
@@ -245,9 +272,23 @@ buttonOption2.addEventListener('click', () => {
 
 /* Load art assets based on what scene the user is viewing */
 loadArt = (scene) => {
-    if (scene === "zombieAttackScene1") {
-        console.log("hello");
-    };
+
+    let image = script[scene].art;
+
+    /* If there is an image to be rendered, build up its file path
+    *  and use the file path on index.html element 'mainIMage'
+    *  If there is no image to render, make the mainImage element
+    *  invisible */
+
+    if (image !== null) {
+        mainImage.classList.remove("invisible");
+        mainImage.src = `assets/images/${image}.png`;
+
+    } else {
+        mainImage.classList.add("invisible");
+    }
+
+
 };
 
 /* Feed JSON data into the HTML elements for rendering */
