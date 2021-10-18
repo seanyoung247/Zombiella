@@ -168,7 +168,7 @@ let script = {
     },
     "zombieAttackScene2":
     {
-        "paragraph": "Something needs to be done, what should Cinderella do?",
+        "paragraph": "Something needs to be done, but who should do it?",
         "option1": "Prince",
         "option2": "Cinders",
         "option1Result": "princeDeathScene",
