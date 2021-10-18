@@ -33,7 +33,7 @@
     --white: #F3F3F3;
     --orange: #E4852A;
     --red: #970D2D;
-    --purple: #3F0071; 
+    --purple: #3F0071;
     --black: #000000;
 }
 
@@ -90,23 +90,24 @@ body {
 }
 
 /* 3.2 Option buttons */
-  
+
   .btn-pumpkin-left {
-    background-color: var(--orange);
+    /* background-color: var(--orange); */
+    background-color: transparent;
     height: 15rem;
-    width: 20rem;
-    border-radius: 45%;
-    border: 1px solid var(--black);
+    width: 12rem;
+    /* border-radius: 45%;
+    border: 1px solid var(--black); */
     cursor: pointer;
     font-size: 2rem;
   }
 
   .btn-pumpkin-right {
-    background-color: var(--orange);
+    /* background-color: var(--orange); */
     height: 15rem;
-    width: 20rem;
-    border-radius: 45%;
-    border: 1px solid var(--black);
+    width: 12rem;
+    /* border-radius: 45%;
+    border: 1px solid var(--black); */
     cursor: pointer;
     font-size: 2rem;
   }
@@ -114,38 +115,55 @@ body {
   .grow {
     animation: grow-pumpkin 0.5s ease-in forwards;
   }
-  
+
   .shrink {
     animation: shrink-pumpkin 0.5s ease-in forwards;
   }
-  
+
   @keyframes grow-pumpkin {
     0% {
         height: 15rem;
-        width: 20rem;
+        width: 12rem;
     }
     100% {
         height: 17rem;
-        width: 22rem;
+        width: 15rem;
     }
   }
-  
+
   @keyframes shrink-pumpkin {
     0% {
         height: 17rem;
-        width: 22rem; 
+        width: 15rem;
     }
     100% {
         height: 15rem;
-        width: 20rem;
+        width: 12rem;
     }
   }
-  
 
 /* 3.2 Option buttons */
 .opt-btns {
     height: 20%;
 }
+
+.pumpkin_back{fill:#e26600;}
+.pumpkin_stalk{fill:#b3d618;}
+.pumpkin_dark{fill:#f77016;}
+.pumpkin_mid{fill:#f77a1c;}
+.pumpkin_light{fill:#f7931e;}
+
+.pumpkin_text{
+  font-size:32px;
+}
+
+/* #pumpkinText1,
+#pumpkinText2 {
+  position: relative;
+  font-size:18px;
+  top: -50%;
+  transform: translateX(-50%);
+} */
 
 /* 4. Navbar */
 /* 4.1 Main Nav */
@@ -321,7 +339,7 @@ body {
 
 
 @media (min-width: 768px) {
-    
+
     .btn-pumpkin-right::before, .btn-pumpkin-left::before {
         bottom: 27%;
     }
