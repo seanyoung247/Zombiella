@@ -331,7 +331,7 @@ Our testing group consisted of a couple of age groups and varied abilities invol
 
 
 ## Bugs
-
+We had an issue where one of our team members had a problem with VSCode. Something *spooky* happened and it managed to merge an old version with a new one leaving us with a complete mess. With such a solid and experienced team, one call and 5 minutes later we were able to fix this and get back on track.
 
 
 ## Unfixed Bugs
