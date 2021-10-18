@@ -1,6 +1,7 @@
 ![ZOMBIELLA](readme-images/splash-image.jpg)
 
-# ZOMBIELLA
+&nbsp;
+
 A story of love, confidence and Zombies!
 
 If you are brave enough to visit the live story, follow this [link](https://andrewdempsey2018.github.io/Zombiella/ "Zombiella")
