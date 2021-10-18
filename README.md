@@ -151,7 +151,7 @@ We have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to select 
 
 
 ### Colours
-Initially, we began looking for a colour pallet using [colorhunt](https://colorhunt.co/palettes/halloween "colorhunt") and searched using Halloween as a key work. From this, we converted the key colours into [Colourmind](http://colormind.io/ "Colourmind"), then completed the rest of the pallet. 
+Initially, we began looking for a colour pallet using [colorhunt](https://colorhunt.co/palettes/halloween "colorhunt") and searched using Halloween as a key work. From this, we converted the key colours into [Colourmind](http://colormind.io/ "Colourmind"), then completed the rest of the pallet.
 
 ![Final Colour Pallet](readme-images/colour-pallet/colour-pallet-final.jpg)
 
@@ -326,7 +326,7 @@ Our code has been validated using:
 
 
 \
-&nbsp; 
+&nbsp;
 
 
 ## Bugs
@@ -348,7 +348,7 @@ There are no unfixed bugs.
 # Deployment
 
 The live link for this project can be viewed [here](https://andrewdempsey2018.github.io/Zombiella/ "Zombiella")
- 
+
 ### Clone the repo with GitPod
 * Log in to your GitHub account
 * Follow this link to access this repository - [*ZOMBIELLA*](https://github.com/andrewdempsey2018/Zombiella "Zombiella")
@@ -379,6 +379,8 @@ This Hackathon was a very enjoyable experience. I had the opportunity to work wi
 I have highly enjoyed participating in this hackaton. It is fantastic to have had the opportunity to work on a project with other students, learn together, be supportive to each other and, most importantly have fun. Overall it is been a great experience, this is my first hackaton and I will surely register for the next one.
 
 ## Sean Young
+
+Hectic as ever I enjoyed this hackathon immensely. It was certainly a nice change of pace to get to create artwork while the rest of the team got on with the real work! 
 
 ## Sam Timmins
 
