@@ -211,8 +211,7 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 * **Scene area**: area where the user can see the animation of the story.
 
-![Scene area](readme-images/features/scene.jpg)
-![Scene area](readme-images/features/scene1.jpg)
+![Scene area image](readme-images/features/scene.jpg) ![Scene area script](readme-images/features/scene1.jpg)
 
 &nbsp;
 
@@ -277,8 +276,6 @@ Our testing group consisted of a couple of age groups and varied abilities invol
 
 &nbsp;
 
-
-
 ### UX Testing
 
 | Requirements & Expectations | Implemented | Tested | Comments
@@ -321,7 +318,11 @@ Our testing group consisted of a couple of age groups and varied abilities invol
 
 ## Code Validation
 
+Our code has been validated using:
 
+* HTML - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* CSS - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* JavaScript - [Esprima](https://esprima.org/demo/validate.html "Esprima")
 
 
 \
