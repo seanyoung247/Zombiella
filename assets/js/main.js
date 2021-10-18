@@ -20,7 +20,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "invitationScene1",
         "option2Result": "na",
-        art: "cinders_awe_struck"
+        art: "cinders_rags"
     },
     "invitationScene1":
     {
@@ -29,7 +29,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "invitationScene2",
         "option2Result": "na",
-        art: "cinders_fight_pose"
+        art: "cinders_rags"
     },
     "invitationScene2":
     {
@@ -38,7 +38,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "refusalScene1",
         "option2Result": "na",
-        art: null
+        art: "cinders_excited_invitation"
     },
     "refusalScene1":
     {
@@ -47,7 +47,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "refusalScene2",
         "option2Result": "na",
-        art: "cinders_rags"
+        art: "cinders_scrubbing"
     },
     "refusalScene2":
     {
@@ -65,7 +65,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "porridgeScene",
         "option2Result": "na",
-        art: "cinders_zombie"
+        art: "cinders_scrubbing"
     },
     "porridgeScene":
     {
@@ -74,7 +74,7 @@ let script = {
         "option2": "Clean up porridge",
         "option1Result": "graveyardScene1",
         "option2Result": "porridgeEnd",
-        art: null
+        art: "cinders_unhappy"
     },
     "porridgeEnd":
     {
@@ -83,7 +83,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "intro",
         "option2Result": "na",
-        art: null
+        art: "cinders_unhappy"
     },
     "graveyardScene1":
     {
@@ -92,7 +92,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "graveyardScene2",
         "option2Result": "na",
-        art: null
+        art: "cinders_rags"
     },
     "graveyardScene2":
     {
@@ -101,7 +101,7 @@ let script = {
         "option2": "Make a wish",
         "option1Result": "findGraveScene1",
         "option2Result": "carriageScene",
-        art: null
+        art: "cinders_rags"
     },
     "findGraveScene1":
     {
@@ -110,7 +110,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "findGraveScene2",
         "option2Result": "na",
-        art: null
+        art: "cinders_unhappy"
     },
     "findGraveScene2":
     {
@@ -119,7 +119,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "intro",
         "option2Result": "na",
-        art: null
+        art: "cinders_curled_up"
     },
     "carriageScene":
     {
@@ -128,7 +128,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "theBallScene1",
         "option2Result": "na",
-        art: null
+        art: "cinders_ballgown"
     },
     "theBallScene1":
     {
@@ -137,7 +137,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "theBallScene2",
         "option2Result": "na",
-        art: null
+        art: "cinders_awe_struck"
     },
     "theBallScene2":
     {
@@ -146,7 +146,7 @@ let script = {
         "option2": "Visit the bufeet table",
         "option1Result": "danceScene",
         "option2Result": "zombieAttackScene1",
-        art: null
+        art: "cinders_awe_struck"
     },
     "danceScene":
     {
@@ -155,7 +155,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "intro",
         "option2Result": "na",
-        art: null
+        art: "cinders_and_prince_dancing"
     },
     "zombieAttackScene1":
     {
@@ -164,7 +164,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "zombieAttackScene2",
         "option2Result": "na",
-        art: null
+        art: "cinders_scoffing"
     },
     "zombieAttackScene2":
     {
@@ -173,7 +173,7 @@ let script = {
         "option2": "Get medieval on their asses",
         "option1Result": "princeDeathScene",
         "option2Result": "fightScene1",
-        art: null
+        art: "prince_hero_pose"
     },
     "princeDeathScene":
     {
@@ -191,7 +191,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "fightScene2",
         "option2Result": "na",
-        art: null
+        art: "cinders_fight_pose"
     },
     "fightScene2":
     {
@@ -200,7 +200,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "fightScene3",
         "option2Result": "na",
-        art: null
+        art: "cinders_kick"
     },
     "fightScene3":
     {
@@ -227,7 +227,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "goodEndingScene",
         "option2Result": "intro",
-        art: null
+        art: "prince_proposing"
     },
     "goodEndingScene":
     {
@@ -236,7 +236,7 @@ let script = {
         "option2": "disabled",
         "option1Result": "intro",
         "option2Result": "na",
-        art: null
+        art: "cinders_fight_pose"
     },
 };
 
