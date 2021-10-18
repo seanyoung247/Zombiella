@@ -336,7 +336,7 @@ We had an issue where one of our team members had a problem with VSCode. Somethi
 
 ## Unfixed Bugs
 
-
+There are no unfixed bugs.
 
 \
 &nbsp;
