@@ -207,11 +207,13 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 * **Navigation bar**: it allows the user to navigate through the story by providing the correct buttons to carry on with the story. It is composed by a "next" button, "read again" button, and two buttons that allow the user to make a choice when required.
 
+![Story Buttons](readme-images/features/buttons.jpg)
+
 &nbsp;
 
 * **Scene area**: area where the user can see the animation of the story.
 
-![Scene area image](readme-images/features/scene.jpg) ![Scene area script](readme-images/features/scene1.jpg)
+![Scene area script](readme-images/features/story-screen.jpg)
 
 &nbsp;
 
@@ -258,6 +260,7 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 * For the fonts [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * For colour contrast checking [WebAIM](https://webaim.org/resources/contrastchecker/ "WebAIM")
 * For the blood drips [Adib Behjat](https://codepen.io/abehjat/pen/oXMENv "Adib Behjat")
+* For the background on the main story [CSS gradient](https://cssgradient.io/ "CSS gradient")
 
 
 # Testing
