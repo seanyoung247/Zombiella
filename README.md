@@ -332,6 +332,8 @@ Our code has been validated using:
 ## Bugs
 We had an issue where one of our team members had a problem with VSCode. Something *spooky* happened and it managed to merge an old version with a new one leaving us with a complete mess. With such a solid and experienced team, one call and 5 minutes later we were able to fix this and get back on track.
 
+Whilst working on the Javascript element of the scripting engine, there was a recurring error happening that was hard to track down. We managed to output the contents of the error to the console and it was returning the text "Sleepy[v=puAV]Sneezy[Wtq6_GM]" LOL. In the end we discovered that the error was happening because of improperly closed curly braces.
+
 
 ## Unfixed Bugs
 
