@@ -201,11 +201,24 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 * **Header**: shows the title of the story and when clicked the page reloads, this allows the user to start the story again.
 
+![Header](readme-images/features/navbar.gif)
+
+&nbsp;
+
 * **Navigation bar**: it allows the user to navigate through the story by providing the correct buttons to carry on with the story. It is composed by a "next" button, "read again" button, and two buttons that allow the user to make a choice when required.
+
+&nbsp;
 
 * **Scene area**: area where the user can see the animation of the story.
 
+![Scene area](readme-images/features/scene.jpg)
+![Scene area](readme-images/features/scene1.jpg)
+
+&nbsp;
+
 * **Footer**: it contains the link to the Github and LinkedIn profiles of all the developers that worked on the project.
+
+![Footer](readme-images/features/footer.jpg)
 
 &nbsp;
 
@@ -315,13 +328,11 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 
 # Deployment
 
-<!-- ADD LIVE LINK HERE -->
-
-
+The live link for this project can be viewed [here](https://andrewdempsey2018.github.io/Zombiella/ "Zombiella")
  
 ### Clone the repo with GitPod
 * Log in to your GitHub account
-* Follow this link to access this repository - ******* ENTER LINK HERE *******
+* Follow this link to access this repository - [*ZOMBIELLA*](https://github.com/andrewdempsey2018/Zombiella "Zombiella")
 * Select the **Code** dropdown button situated above the list of files
 * Make sure that the HTTPS tab is selected
 * Click on the **Copy** button to the right of the URL
@@ -331,12 +342,6 @@ Creating the flow, allowed us to create a basic outline of the story in order to
 * Open your [GitPod workspaces](https://gitpod.io/workspaces "GitPod workspaces")
 * Select the three dots to the right-hand side of your workspace and select **Pin**
 
-
-### Set up your Workspace
-
-
-
-### Deployment via Heroku
 
 \
 &nbsp;
